@@ -106,7 +106,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} ACN Sinal Verde. Todos os direitos reservados.</p>
-          <p>Mockup Arquitetural - Protótipo Construído Via IA</p>
+          <p>Mockup Arquitetural</p>
         </div>
       </div>
     </footer>
