@@ -28,6 +28,14 @@ export default function CategoryProductPage() {
             <p className="text-xl text-gray-600 max-w-3xl">{mainCategory.desc}</p>
           </div>
 
+          {mainCategory.slug === 'radiocomunicacao' && (
+            <div className="mb-12 bg-blue-900 border border-blue-800 rounded-2xl p-8 md:p-10 text-center shadow-xl">
+              <h2 className="text-2xl md:text-3xl font-display font-bold text-white tracking-widest uppercase">
+                Venda e locação de equipamentos
+              </h2>
+            </div>
+          )}
+
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {mainCategory.items.map((item: any, idx: number) => (
               <Link to={`/produtos/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">

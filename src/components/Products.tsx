@@ -153,7 +153,7 @@ export const mainCategories = [
     slug: 'radiocomunicacao',
     title: 'Radiocomunicação',
     desc: 'Soluções avançadas em comunicação de rádio para operações críticas, abrangendo comunicação tática, móvel e infraestrutura.',
-    img: 'https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop',
+    img: 'https://i.ibb.co/S4fN5NQP/Whats-App-Image-2026-05-22-at-14-28-24.jpg',
     highlightColor: 'text-blue-700',
     items: telecomProducts
   },
@@ -161,7 +161,7 @@ export const mainCategories = [
     slug: 'adaptacao-veicular',
     title: 'Adaptação Veicular',
     desc: 'Equipamentos e projetos de adaptação para viaturas e frotas de emergência, incluindo sinalização e acústica de alta performance.',
-    img: 'https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop',
+    img: 'https://i.ibb.co/S4m37D56/Ford-Ranger-2.png',
     highlightColor: 'text-green-700',
     items: vehicleProducts
   }

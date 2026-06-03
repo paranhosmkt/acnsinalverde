@@ -53,6 +53,11 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-6 font-display uppercase tracking-wider text-sm">Institucional</h4>
             <ul className="space-y-3 text-sm">
               <li>
+                <Link to="/sobre" className="hover:text-white transition-colors flex items-center gap-2 group">
+                  <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Sobre nós
+                </Link>
+              </li>
+              <li>
                 <Link to="/produtos" className="hover:text-white transition-colors flex items-center gap-2 group">
                   <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Produtos e Serviços
                 </Link>

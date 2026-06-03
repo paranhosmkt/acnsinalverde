@@ -11,6 +11,7 @@ export default function Header() {
         
         <nav className="hidden md:flex items-center gap-8">
           <Link to="/" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Página Inicial</Link>
+          <Link to="/sobre" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Sobre nós</Link>
           
           <div className="relative group/nav">
             <Link to="/produtos" className="text-gray-600 hover:text-green-600 font-medium transition-colors flex items-center gap-1 py-8">

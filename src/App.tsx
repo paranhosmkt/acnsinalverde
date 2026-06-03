@@ -8,6 +8,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
+import AboutPage from './pages/AboutPage';
 import ProductsPage from './pages/ProductsPage';
 import CategoryProductPage from './pages/CategoryProductPage';
 import ProductDetailPage from './pages/ProductDetailPage';
@@ -22,6 +23,7 @@ export default function App() {
         <main className="flex-grow flex flex-col">
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/sobre" element={<AboutPage />} />
               <Route path="/produtos" element={<ProductsPage />} />
               <Route path="/produtos/:slug" element={<CategoryProductPage />} />
               <Route path="/produtos/:categorySlug/:itemSlug" element={<ProductDetailPage />} />
