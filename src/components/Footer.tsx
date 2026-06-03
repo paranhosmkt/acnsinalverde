@@ -72,6 +72,11 @@ export default function Footer() {
                   <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Parceiros e Clientes
                 </Link>
               </li>
+              <li>
+                <Link to="/contato" className="hover:text-white transition-colors flex items-center gap-2 group">
+                  <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Fale Conosco
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -91,6 +96,9 @@ export default function Footer() {
               <a href="#" className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors">
                 <FileText size={16} /> Portal da Transparência
               </a>
+            </div>
+            <div className="mt-6">
+              <img src="https://i.ibb.co/zH2W1rgp/unnamed.png" alt="Selo Crea-SC" className="h-24 w-auto opacity-75 hover:opacity-100 transition-opacity" />
             </div>
           </div>
 

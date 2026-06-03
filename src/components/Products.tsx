@@ -7,9 +7,9 @@ export const telecomProducts = [
     slug: "radios-portateis", 
     title: "Rádios Portáteis Digitais", 
     desc: "Comunicação tática segura e criptografada para operações em campo.", 
-    img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop",
+    img: "https://i.ibb.co/MxMLcbYL/4.jpg",
     items: [
-      { slug: "motorola-r2", brand: "MOTOROLA", title: "MOTOTRBO R2", desc: "O MOTOTRBO R2 é um potente equipamento de última geração que unifica a durabilidade e a ergonomia para garantir um uso seguro e simples.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
+      { slug: "motorola-r2", brand: "MOTOROLA", title: "MOTOTRBO R2", desc: "O MOTOTRBO R2 é um potente equipamento de última geração que unifica a durabilidade e a ergonomia para garantir um uso seguro e simples. Com um alcance superior, áudio configurável e uma integração perfeita, o R2 é um acréscimo confiável a um dia de trabalho ininterrupto.", img: "https://i.ibb.co/zHNcy72t/Produtos-ACN-3.png" },
       { slug: "motorola-r5", brand: "MOTOROLA", title: "MOTOTRBO R5", desc: "Comunicação confiável e robusta para operações contínuas.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
       { slug: "motorola-r7", brand: "MOTOROLA", title: "MOTOTRBO R7 (Com e Sem Tela)", desc: "Rádio digital portátil com áudio avançado e conectividade preparada para o futuro.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
       { slug: "motorola-r7-ex", brand: "MOTOROLA", title: "MOTOTRBO R7 EX", desc: "Intrinsecamente seguro para ambientes perigosos, com máxima performance.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
@@ -52,7 +52,7 @@ export const telecomProducts = [
     slug: "radios-moveis", 
     title: "Rádios Móveis Veiculares", 
     desc: "Instalação embarcada com alta potência de transmissão para viaturas.", 
-    img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop",
+    img: "https://i.ibb.co/fG80G5M2/3.jpg",
     items: [
       { slug: "radio-veicular-tx", title: "Rádio Veicular TX", desc: "Instalação otimizada para consoles de viaturas com display de alta visibilidade.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" }
     ]
@@ -61,7 +61,7 @@ export const telecomProducts = [
     slug: "sistemas-repetidoras", 
     title: "Sistemas de Repetidoras", 
     desc: "Ampliação de cobertura de sinal para redes extensas de comunicação.", 
-    img: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop",
+    img: "https://i.ibb.co/hw0BtDz/Produtos-ACN-1.png",
     items: [
       { slug: "repetidora-r500", title: "Repetidora Base R500", desc: "Garante cobertura contínua e sem falhas em áreas de difícil acesso.", img: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop" }
     ]
@@ -69,8 +69,8 @@ export const telecomProducts = [
   { 
     slug: "acessorios-audio", 
     title: "Acessórios de Áudio", 
-    desc: "Microfones de lapela, fones e headsets táticos para forças de segurança.", 
-    img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800&auto=format&fit=crop",
+    desc: "Fones e headsets táticos para forças de segurança.", 
+    img: "https://i.ibb.co/3mW5GDbM/Produtos-ACN-2.png",
     items: [
       { slug: "headset-tatico", title: "Headset Tático P22", desc: "Comunicação clara com supressão de ruídos externos.", img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800&auto=format&fit=crop" }
     ]
@@ -79,7 +79,7 @@ export const telecomProducts = [
     slug: "antenas-profissionais", 
     title: "Antenas Profissionais", 
     desc: "Antenas móveis e fixas projetadas para alto rendimento e durabilidade.", 
-    img: "https://images.unsplash.com/photo-1534080536767-f703db600109?q=80&w=800&auto=format&fit=crop",
+    img: "https://i.ibb.co/Fk8y7yC9/Produtos-ACN.png",
     items: [
       { slug: "antena-uhf-v2", title: "Antena UHF de Teto", desc: "Alta capacidade de recepção com resistência a impactos.", img: "https://images.unsplash.com/photo-1534080536767-f703db600109?q=80&w=800&auto=format&fit=crop" }
     ]
@@ -88,7 +88,7 @@ export const telecomProducts = [
     slug: "locacao-comodato", 
     title: "Locação e Comodato", 
     desc: "Contratos flexíveis de locação com suporte técnico e atualização tecnológica.", 
-    img: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    img: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop",
     items: []
   },
 ];

@@ -30,7 +30,7 @@ export default function AboutPage() {
             {/* Espaço para a Imagem 1 */}
             <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
             <img 
-              src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=1200&auto=format&fit=crop" 
+              src="https://i.ibb.co/nNJCFYsP/Whats-App-Image-2026-06-03-at-15-24-08.jpg" 
               alt="Instalações ACN Sinal Verde" 
               className="w-full h-full object-cover relative z-10 opacity-0 transition-opacity duration-500"
               onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
@@ -43,7 +43,7 @@ export default function AboutPage() {
              {/* Espaço para a Imagem 2 */}
             <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
             <img 
-              src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=1200&auto=format&fit=crop" 
+              src="https://i.ibb.co/Kpt8GwrR/Gemini-Generated-Image-g9zbq5g9zbq5g9zb.png" 
               alt="Equipe ACN Sinal Verde" 
               className="w-full h-full object-cover relative z-10 opacity-0 transition-opacity duration-500"
               onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}

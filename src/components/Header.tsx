@@ -46,12 +46,13 @@ export default function Header() {
           
           <Link to="/diferenciais" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Diferenciais</Link>
           <Link to="/clientes" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Clientes</Link>
+          <Link to="/contato" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Fale Conosco</Link>
         </nav>
         
         <div className="hidden md:flex items-center">
-          <a href="#contato" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-md font-medium transition-colors shadow-sm flex items-center gap-2">
+          <Link to="/contato" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-md font-medium transition-colors shadow-sm flex items-center gap-2">
             Solicitar Orçamento
-          </a>
+          </Link>
         </div>
         
         <button className="md:hidden p-2 text-gray-600 hover:bg-gray-50 rounded-md">
