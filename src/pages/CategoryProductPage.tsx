@@ -1,10 +1,12 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { telecomProducts, vehicleProducts, mainCategories } from '../components/Products';
+import BeforeAfterSlider from '../components/BeforeAfterSlider';
 
 export default function CategoryProductPage() {
   const { slug } = useParams<{ slug: string }>();
+  const [activeBrand, setActiveBrand] = useState<string>('');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -14,6 +16,10 @@ export default function CategoryProductPage() {
   const allProducts = [...telecomProducts, ...vehicleProducts];
   const product = allProducts.find(p => p.slug === slug);
   const parentCategory = mainCategories.find(c => c.items.some((i: any) => i.slug === slug));
+
+  useEffect(() => {
+    setActiveBrand('');
+  }, [mainCategory]);
 
   if (mainCategory) {
     return (
@@ -29,33 +35,158 @@ export default function CategoryProductPage() {
           </div>
 
           {mainCategory.slug === 'radiocomunicacao' && (
-            <div className="mb-12 bg-blue-900 border border-blue-800 rounded-2xl p-8 md:p-10 text-center shadow-xl">
-              <h2 className="text-2xl md:text-3xl font-display font-bold text-white tracking-widest uppercase">
+            <div className="mb-12 relative overflow-hidden rounded-2xl shadow-xl flex items-center justify-center py-20 px-8">
+              <div className="absolute inset-0 z-0">
+                <img 
+                  src="https://images.unsplash.com/photo-1542128962-9d50ad7bf014?q=80&w=2000&auto=format&fit=crop" 
+                  alt="Bombeiro com rádio" 
+                  className="w-full h-full object-cover blur-[2px] opacity-90 scale-105"
+                />
+                <div className="absolute inset-0 bg-blue-900/60 backdrop-blur-[2px]" />
+              </div>
+              <h2 className="relative z-10 text-2xl md:text-4xl font-display font-bold text-white tracking-widest uppercase text-center drop-shadow-lg">
                 Venda e locação de equipamentos
               </h2>
             </div>
           )}
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {mainCategory.items.map((item: any, idx: number) => (
-              <Link to={`/produtos/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
-                <div className="aspect-[4/3] overflow-hidden bg-gray-100">
-                  <img 
-                    src={item.img} 
-                    alt={item.title} 
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
-                  />
+          {mainCategory.slug === 'adaptacao-veicular' && (
+            <div className="mb-16 max-w-4xl mx-auto">
+              <h2 className="font-display text-2xl font-bold text-gray-900 mb-6 text-center">Transformação em Viaturas</h2>
+              <BeforeAfterSlider />
+            </div>
+          )}
+
+          {(() => {
+            // Flatten all products under this main category to find all unique brands
+            const allSubProducts = mainCategory.items.flatMap(cat => 
+              cat.items.map((prod: any) => ({ ...prod, category: cat }))
+            );
+            const rawBrands = Array.from(new Set(allSubProducts.map(p => p.brand).filter(Boolean)));
+            
+            // If there are no brands at all (like vehicleProducts), fallback to showing just categories
+            if (rawBrands.length === 0) {
+              return (
+                <div className="bg-white rounded-3xl p-8 shadow-md border border-gray-100">
+                  <h2 className="font-display text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">{mainCategory.title}</h2>
+                  <div className="space-y-16">
+                    {mainCategory.items.map((cat: any) => (
+                      <div key={cat.slug}>
+                        <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{cat.title}</h3>
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                          {cat.items.map((item: any) => (
+                            <Link to={`/produtos/${cat.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
+                              <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                                <img 
+                                  src={item.img} 
+                                  alt={item.title} 
+                                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                                />
+                              </div>
+                              <div className="p-6 flex-grow flex flex-col">
+                                <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
+                                <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                                <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
+                                  Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                                </span>
+                              </div>
+                            </Link>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
-                <div className="p-6 flex-grow flex flex-col">
-                  <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
-                  <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
-                  <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
-                    Ver produtos <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                  </span>
+              );
+            }
+
+            // Group by Brand -> Category -> Products
+            let brands = [...rawBrands as string[]];
+            // Only add 'Linha Completa' if there are products without a brand
+            const NO_BRAND_LABEL = mainCategory.slug === 'adaptacao-veicular' ? 'Sinalização e Adaptação' : 'Diversos';
+            if (allSubProducts.some(p => !p.brand)) {
+              brands.push(NO_BRAND_LABEL);
+            }
+            
+            if (!activeBrand) {
+              return (
+                <div className="space-y-8">
+                  <h2 className="font-display text-3xl font-bold text-gray-900 border-b border-gray-200 pb-4 text-center">Selecione uma Marca</h2>
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {brands.map(brand => (
+                      <button
+                        key={brand}
+                        onClick={() => setActiveBrand(brand)}
+                        className="group bg-white rounded-3xl p-10 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-500 transition-all duration-300 flex flex-col items-center justify-center min-h-[200px]"
+                      >
+                        <h3 className="font-display text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors uppercase tracking-widest">{brand}</h3>
+                        <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-gray-500 group-hover:text-blue-600 transition-colors">
+                          Ver produtos da marca <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                        </span>
+                      </button>
+                    ))}
+                  </div>
                 </div>
-              </Link>
-            ))}
-          </div>
+              );
+            }
+
+            const activeBrandName = activeBrand;
+            const productsForBrand = allSubProducts.filter(p => 
+              activeBrandName === NO_BRAND_LABEL ? !p.brand : p.brand === activeBrandName
+            );
+            const categoriesInBrand = Array.from(new Set(productsForBrand.map(p => p.category.slug)));
+
+            return (
+              <div className="space-y-8 animate-in fade-in zoom-in-95 duration-300">
+                <div className="flex items-center justify-between mb-8 pb-4 border-b border-gray-200">
+                  <h2 className="font-display text-3xl font-bold text-gray-900">{activeBrandName}</h2>
+                  <button 
+                    onClick={() => setActiveBrand('')}
+                    className="inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-200 hover:bg-gray-50"
+                  >
+                    <ArrowLeft size={16} /> Voltar para Marcas
+                  </button>
+                </div>
+
+                <div className="bg-white rounded-3xl p-8 md:p-12 shadow-xl border border-gray-100 min-h-[500px]">
+                  <div className="space-y-16">
+                    {categoriesInBrand.map(catSlug => {
+                      const categoryObj = productsForBrand.find(p => p.category.slug === catSlug)?.category;
+                      const productsInCatAndBrand = productsForBrand.filter(p => p.category.slug === catSlug);
+                      
+                      if (!categoryObj) return null;
+                      
+                      return (
+                        <div key={catSlug}>
+                          <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{categoryObj.title}</h3>
+                          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {productsInCatAndBrand.map((item: any) => (
+                              <Link to={`/produtos/${categoryObj.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
+                                <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                                  <img 
+                                    src={item.img} 
+                                    alt={item.title} 
+                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                                  />
+                                </div>
+                                <div className="p-6 flex-grow flex flex-col">
+                                  <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
+                                  <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                                  <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
+                                    Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                                  </span>
+                                </div>
+                              </Link>
+                            ))}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            );
+          })()}
 
         </div>
       </div>

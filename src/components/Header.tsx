@@ -50,9 +50,9 @@ export default function Header() {
         </nav>
         
         <div className="hidden md:flex items-center">
-          <Link to="/contato" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-md font-medium transition-colors shadow-sm flex items-center gap-2">
+          <a href="https://wa.me/554832400336" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-md font-medium transition-colors shadow-sm flex items-center gap-2">
             Solicitar Orçamento
-          </Link>
+          </a>
         </div>
         
         <button className="md:hidden p-2 text-gray-600 hover:bg-gray-50 rounded-md">

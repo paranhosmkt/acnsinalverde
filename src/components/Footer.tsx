@@ -1,12 +1,12 @@
-import { Instagram, MapPin, Phone, Mail, FileText, ChevronRight } from 'lucide-react';
+import { Instagram, MapPin, Phone, Mail, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer id="contato" className="bg-gray-900 border-t border-gray-800 text-gray-300 pt-16 pb-8">
+    <footer id="contato" className="bg-gray-900 border-t border-gray-800 text-gray-300 pt-12 pb-6">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           
           {/* Col 1: Contato */}
           <div>
@@ -92,11 +92,6 @@ export default function Footer() {
               <Instagram size={20} className="text-pink-500" />
               Siga nosso Instagram
             </a>
-            <div className="mt-8">
-              <a href="#" className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-white transition-colors">
-                <FileText size={16} /> Portal da Transparência
-              </a>
-            </div>
             <div className="mt-6">
               <img src="https://i.ibb.co/zH2W1rgp/unnamed.png" alt="Selo Crea-SC" className="h-24 w-auto opacity-75 hover:opacity-100 transition-opacity" />
             </div>
@@ -104,8 +99,7 @@ export default function Footer() {
 
         </div>
 
-        <div className="border-t border-gray-800 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>&copy; {new Date().getFullYear()} ACN Sinal Verde. Todos os direitos reservados.</p>
+        <div className="border-t border-gray-800 pt-6 mt-6 flex flex-col md:flex-row justify-center items-center gap-4 text-xs text-gray-500">
           <p>Mockup Arquitetural</p>
         </div>
       </div>
