@@ -3,19 +3,19 @@ import { motion } from 'motion/react';
 
 export default function Hero() {
   // ID do vídeo do YouTube. Troque por um ID real de vídeo de viaturas.
-  const YOUTUBE_VIDEO_ID = "ESBOEFSpSKY";
+  const YOUTUBE_VIDEO_ID = "2iLlpWSYfPE";
 
   return (
     <section className="relative pt-32 pb-20 lg:pt-56 lg:pb-40 overflow-hidden bg-gray-900 flex items-center min-h-[80vh]">
       {/* Background Video with overlay */}
       <div className="absolute inset-0 z-0 overflow-hidden bg-black pointer-events-none">
         <iframe
-          className="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 opacity-40 mix-blend-luminosity scale-[1.3] md:scale-[1.1] z-0"
+          className="absolute top-1/2 left-1/2 w-[100vw] h-[56.25vw] min-h-[100vh] min-w-[177.77vh] -translate-x-1/2 -translate-y-1/2 opacity-70 mix-blend-luminosity scale-[1.3] md:scale-[1.1] z-0"
           src={`https://www.youtube.com/embed/${YOUTUBE_VIDEO_ID}?autoplay=1&mute=1&controls=0&disablekb=1&loop=1&playlist=${YOUTUBE_VIDEO_ID}&playsinline=1&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3`}
           allow="autoplay; encrypted-media; picture-in-picture"
           title="Background Video"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/95 to-gray-900/40 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/60 to-transparent z-10" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
