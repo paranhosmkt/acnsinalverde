@@ -75,22 +75,34 @@ export default function CategoryProductPage() {
                         <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{cat.title}</h3>
                         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                           {cat.items.map((item: any) => (
-                            <Link to={`/produtos/${cat.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
-                              <div className="aspect-[4/3] overflow-hidden bg-gray-100">
-                                <img 
-                                  src={item.img} 
-                                  alt={item.title} 
-                                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
-                                />
-                              </div>
-                              <div className="p-6 flex-grow flex flex-col">
-                                <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
-                                <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
-                                <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
-                                  Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                                </span>
-                              </div>
-                            </Link>
+                            <div key={item.slug} className={`group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col ${cat.isPhotoOnly ? 'border-none shadow-sm hover:shadow-md' : ''}`}>
+                              {cat.isPhotoOnly ? (
+                                <div className="aspect-[4/3] overflow-hidden bg-gray-100 rounded-xl">
+                                  <img 
+                                    src={item.img} 
+                                    alt={item.title || 'Projeto Especial'} 
+                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                  />
+                                </div>
+                              ) : (
+                                <Link to={`/produtos/${cat.slug}/${item.slug}`} className="flex flex-col h-full">
+                                  <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                                    <img 
+                                      src={item.img} 
+                                      alt={item.title} 
+                                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                                    />
+                                  </div>
+                                  <div className="p-6 flex-grow flex flex-col">
+                                    <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
+                                    <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                                    <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
+                                      Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                                    </span>
+                                  </div>
+                                </Link>
+                              )}
+                            </div>
                           ))}
                         </div>
                       </div>

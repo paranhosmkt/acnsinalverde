@@ -95,57 +95,74 @@ export const telecomProducts = [
 
 export const vehicleProducts = [
   { 
-    slug: "sinalizadores-visuais", 
-    title: "Sinalizadores Visuais (Giroflex)", 
-    desc: "Sinalização acústica e visual em LED de alta intensidade para emergências.", 
+    slug: "adaptacao-caracterizada", 
+    title: "Adaptação Caracterizada", 
+    desc: "Adaptação completa de viaturas ostensivas com elementos visuais, tecnologia e proteção.", 
     img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop",
     items: [
-      { slug: "barra-sinalizadora-led", title: "Barra Sinalizadora LED", desc: "Giroflex linear aerodinâmico em policarbonato ultrarresistente.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" }
+      { slug: "capota-fibra-aco", title: "Capota de fibra ou aço", desc: "Estruturas resistentes para as mais diversas aplicações operacionais.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-caes-c", title: "Compartimento para transporte de cães", desc: "Acomodação segura e climatizada para os animais.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-detidos-c", title: "Compartimento para transporte de detidos", desc: "Celulares e divisórias de segurança em resina e polímero.", img: "https://images.unsplash.com/photo-1555319888-0672e0b577de?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-materiais-c", title: "Compartimento para transporte de materiais", desc: "Soluções integradas de gaveteiros e baús de armazenamento tático.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-menores-c", title: "Compartimento para transporte de menores infratores", desc: "Proteção e segurança conforme legislações vigentes.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "conjunto-sinalizador-c", title: "Conjunto sinalizador acústico e visual", desc: "Barras e sirenes de alta performance para identificação da força.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "envelopamento-c", title: "Envelopamento automotivo e/ou plotagem", desc: "Adesivação e fixação de identidades visuais de grau prismático.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "guincho-eletrico", title: "Guincho elétrico", desc: "Guinchos de grande capacidade para apoio tático off-road.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "parachoque-dianteiro", title: "Para choque de impulsão dianteiro", desc: "Estruturas tubulares maciças para proteção frontal do veículo.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "pintura-total-c", title: "Pintura total de veículo", desc: "Cores e texturas sob especificações legais precisas das polícias.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "protetor-traseiro", title: "Protetor de para choque traseiro", desc: "Blindagem e proteção da seção posterior dos veículos de resgate.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "radios-comunicacao-c", title: "Rádios de comunicação", desc: "Instalação embarcada com alta potência de transmissão.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "revestimentos-banco-piso-c", title: "Revestimentos de banco e piso", desc: "Revestimentos laváveis e impermeáveis de alto tráfego.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "sistema-cameras-escuta", title: "Sistema de câmeras e escuta ambiental", desc: "Monitoramento embarcado com múltiplas câmeras HD e armazenamento DVR.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "snorkel", title: "Snorkel", desc: "Soluções de escapamento elevado para cenários alagados.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "suporte-armas-longas", title: "Suporte de armas longas", desc: "Travas rápidas mecânicas e elétricas com segurança operacional.", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" }
     ]
   },
   { 
-    slug: "sistemas-acusticos", 
-    title: "Sistemas Acústicos e Sirenes", 
-    desc: "Sirenes de alta potência com controle inteligente para viaturas.", 
-    img: "https://images.unsplash.com/photo-1626294713835-13f5d5bf6eb1?q=80&w=800&auto=format&fit=crop",
-    items: [
-      { slug: "sirene-eletronica-100w", title: "Sirene Eletrônica 100W", desc: "Amplificador multiprogramável com tons de emergência.", img: "https://images.unsplash.com/photo-1626294713835-13f5d5bf6eb1?q=80&w=800&auto=format&fit=crop" }
-    ]
-  },
-  { 
-    slug: "paineis-comando", 
-    title: "Painéis de Comando", 
-    desc: "Controle centralizado de luzes, sirenes e rádio em consoles ergonômicos.", 
+    slug: "adaptacao-descaracterizada", 
+    title: "Adaptação Descaracterizada", 
+    desc: "Adaptação velada para veículos de inteligência militar e civil, mantendo a operação discreta.", 
     img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop",
     items: [
-      { slug: "painel-controle-central", title: "Painel de Controle Tátil", desc: "Display de controle inteligente para todos os dispositivos eletrônicos.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" }
+      { slug: "sinalizador-interno", title: "Conjunto sinalizador acústico e visual interno", desc: "Estrobos disfarçados em faróis e LEDs em quebra-sois invisíveis até ativação.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-caes-d", title: "Compartimento para transporte de cães", desc: "Módulos portáteis modulares com climatização inteligente.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-detidos-d", title: "Compartimento para transporte de detidos", desc: "Adaptações dissimuladas mantendo a característica civil do interior.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-materiais-d", title: "Compartimento para transporte de materiais", desc: "Cofres e estruturas travadas sob bancos e painéis.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "compartimento-menores-d", title: "Compartimento para transporte de menores infratores", desc: "Adaptações específicas discretas para transferências.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "radios-comunicacao-d", title: "Rádios de comunicação", desc: "Microfones de lapela veiculares e consolas escamoteáveis.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "revestimentos-banco-piso-d", title: "Revestimentos de banco e piso", desc: "Proteção discreta não perceptível garantindo longa duração.", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" }
     ]
   },
   { 
-    slug: "iluminacao-perimetral", 
-    title: "Iluminação Perimetral", 
-    desc: "Faróis de beco e iluminação auxiliar em LED para cenários noturnos.", 
+    slug: "motocicletas", 
+    title: "Motocicletas", 
+    desc: "Adaptação específica e de segurança de motos para patrulhamento, escolta e fiscalização.", 
     img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop",
     items: [
-      { slug: "farol-auxiliar-led", title: "Farol Auxiliar de Beco", desc: "Intensa luminosidade lateral para varreduras em áreas escuras.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" }
-    ]
-  },
-  { 
-    slug: "compartimentos-detidos", 
-    title: "Compartimentos de Detidos", 
-    desc: "Celulares e divisórias de segurança homologadas em polímero e aço.", 
-    img: "https://images.unsplash.com/photo-1555319888-0672e0b577de?q=80&w=800&auto=format&fit=crop",
-    items: [
-      { slug: "cela-tecnopolimero-suv", title: "Cela Integrada para SUV", desc: "Cabine antivandalismo modelada com estrutura indeformável.", img: "https://images.unsplash.com/photo-1555319888-0672e0b577de?q=80&w=800&auto=format&fit=crop" }
+      { slug: "sinalizador-moto", title: "Conjunto sinalizador acústico e visual", desc: "Flaches LED direcionais, mastros estrobos e sirenes compactas.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "protetor-motor", title: "Protetor de motor e carenagem", desc: "Gaiolas tubulares para garantir segurança do motociclista e da patrulha.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "bauleto", title: "Bauleto", desc: "Compartimentos laterais e traseiros rígidos com trancas eletromecânicas.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "antena-pipa", title: "Antena corta pipa", desc: "Equipamento obrigatório e tático para patrulhas urbanas.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "pintura-moto", title: "Pintura total motocicleta", desc: "Padronização visual e tratamentos anticorrosivos duradouros.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "envelopamento-moto", title: "Envelopamento e/ou plotagem", desc: "Sinalização retrorreflexiva padrão de rodovias e estradas.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "porta-tonfas", title: "Porta tonfas", desc: "Montagem aerodinâmica lateral para extração rápida da tonfa.", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" }
     ]
   },
   { 
     slug: "projetos-especiais", 
     title: "Projetos Especiais", 
-    desc: "Adaptação customizada de ambulâncias, resgate e postos de comando.", 
+    desc: "Apenas Galeria de Fotos e Projetos finalizados", 
     img: "https://images.unsplash.com/photo-1586026500585-f5b211d21bf9?q=80&w=800&auto=format&fit=crop",
-    items: []
-  },
+    isPhotoOnly: true,
+    items: [
+      { slug: "proj-1", img: "https://i.ibb.co/S4m37D56/Ford-Ranger-2.png" },
+      { slug: "proj-2", img: "https://images.unsplash.com/photo-1587301669865-c38d21b777a8?q=80&w=800&auto=format&fit=crop" },
+      { slug: "proj-3", img: "https://images.unsplash.com/photo-1555319888-0672e0b577de?q=80&w=800&auto=format&fit=crop" },
+      { slug: "proj-4", img: "https://images.unsplash.com/photo-1520638062993-9c8cfa2bdf9e?q=80&w=800&auto=format&fit=crop" },
+      { slug: "proj-5", img: "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop" },
+      { slug: "proj-6", img: "https://images.unsplash.com/photo-1586026500585-f5b211d21bf9?q=80&w=800&auto=format&fit=crop" }
+    ]
+  }
 ];
 
 export const mainCategories = [

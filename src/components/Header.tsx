@@ -33,12 +33,10 @@ export default function Header() {
               <div className="flex-1">
                 <h4 className="text-green-700 font-bold uppercase tracking-wider text-xs mb-4 border-b border-gray-100 pb-2">Adaptação Veicular</h4>
                 <ul className="space-y-3">
-                  <li><Link to="/produtos/sinalizadores-visuais" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Sinalizadores visuais</Link></li>
-                  <li><Link to="/produtos/sistemas-acusticos" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Sistemas acústicos e sirenes</Link></li>
-                  <li><Link to="/produtos/paineis-comando" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Painéis de comando</Link></li>
-                  <li><Link to="/produtos/iluminacao-perimetral" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Iluminação perimetral</Link></li>
-                  <li><Link to="/produtos/compartimentos-detidos" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Compartimentos de detidos</Link></li>
-                  <li><Link to="/produtos/projetos-especiais" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Projetos especiais</Link></li>
+                  <li><Link to="/produtos/adaptacao-caracterizada" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Adaptação Caracterizada</Link></li>
+                  <li><Link to="/produtos/adaptacao-descaracterizada" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Adaptação Descaracterizada</Link></li>
+                  <li><Link to="/produtos/motocicletas" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Motocicletas</Link></li>
+                  <li><Link to="/produtos/projetos-especiais" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Projetos Especiais</Link></li>
                 </ul>
               </div>
             </div>
