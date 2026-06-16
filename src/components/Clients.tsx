@@ -2,24 +2,33 @@ import { motion } from 'motion/react';
 import React from 'react';
 
 export default function Clients() {
-  const allClients = [
-    'Polícia Civil de SC',
-    'Polícia Militar de SC',
-    'Corpo de Bombeiros SC',
-    'Senasp - Secretaria Nacional de Segurança Pública',
-    'SEJURI - Sec. de Estado de Justiça',
-    'Prefeitura de Florianópolis', 
-    'Prefeitura de São José',
-    'Hyundai', 'Mitsubishi', 'Chevrolet', 'FIAT', 'Citroën', 
-    'Jeep', 'Peugeot', 'Volkswagen', 'Toyota', 'Honda', 
-    'Nissan', 'GWM', 'Ford', 'CAOA Chery',
-    'Implementadores Rodoviários', 
-    'Orcali'
+  const logos = [
+    "https://i.ibb.co/tTVJXg4F/logo-1.jpg",
+    "https://i.ibb.co/PvKjS41r/logo-2.jpg",
+    "https://i.ibb.co/MxFjcQ20/logo-3.jpg",
+    "https://i.ibb.co/svdsq0Nh/logo-4.jpg",
+    "https://i.ibb.co/G6xs5fY/logo-5.jpg",
+    "https://i.ibb.co/msJsWtf/logo-6.jpg",
+    "https://i.ibb.co/BHyMp708/logo-7.jpg",
+    "https://i.ibb.co/bjZgYpsY/logo-8.jpg",
+    "https://i.ibb.co/gZ65V6fk/logo-9.jpg",
+    "https://i.ibb.co/nsMZXR67/logo-10.jpg",
+    "https://i.ibb.co/pB6L9LYb/logo-11.jpg",
+    "https://i.ibb.co/Zz7fj6g1/logo-12.jpg",
+    "https://i.ibb.co/cXwh0Z1d/logo-13.jpg",
+    "https://i.ibb.co/5Wmbp9CX/logo-14.jpg",
+    "https://i.ibb.co/B2kSYKhV/logo-15.jpg",
+    "https://i.ibb.co/8ndjqCQY/logo-16.jpg",
+    "https://i.ibb.co/WNK0zvqB/logo-17.jpg",
+    "https://i.ibb.co/CshZSvds/logo-18.jpg",
+    "https://i.ibb.co/qFrVYDjj/logo-19.jpg",
+    "https://i.ibb.co/93f9GZHZ/logo-20.jpg",
+    "https://i.ibb.co/6J0Qdh4Q/logo-21.jpg"
   ];
 
-  const LogoItem = ({ text }: { text: string; key?: React.Key }) => (
-    <div className="bg-white border border-gray-100 rounded-xl px-6 py-4 flex flex-col items-center justify-center text-center shadow-sm w-48 shrink-0 hover:border-blue-500 hover:shadow-md transition-all mx-3 h-28">
-      <span className="font-bold text-gray-700 text-sm leading-snug">{text}</span>
+  const LogoItem = ({ src }: { src: string }) => (
+    <div className="bg-white border border-gray-100 rounded-xl px-4 py-4 flex items-center justify-center shadow-sm w-48 shrink-0 hover:border-blue-500 hover:shadow-md transition-all mx-3 h-28">
+      <img src={src} alt="Client Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
     </div>
   );
 
@@ -53,8 +62,8 @@ export default function Clients() {
               duration: 50,
             }}
           >
-            {[...allClients, ...allClients].map((client, i) => (
-              <LogoItem key={`row1-${i}`} text={client} />
+            {[...logos, ...logos].map((src, i) => (
+              <LogoItem key={`row1-${i}`} src={src} />
             ))}
           </motion.div>
         </div>

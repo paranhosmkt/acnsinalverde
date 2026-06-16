@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 export default function Stats() {
   const stats = [
     { num: "+ 4.000", label: "Viaturas Entregues" },
-    { num: "30+", label: "Anos de Experiência" },
+    { num: "+30", label: "Anos de Experiência" },
     { num: "Toda", label: "Extensão Nacional" },
     { num: "+ 3.600 m²", label: "Estrutura Física" }
   ];
