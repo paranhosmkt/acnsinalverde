@@ -63,11 +63,6 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/diferenciais" className="hover:text-white transition-colors flex items-center gap-2 group">
-                  <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Diferenciais
-                </Link>
-              </li>
-              <li>
                 <Link to="/clientes" className="hover:text-white transition-colors flex items-center gap-2 group">
                   <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Parceiros e Clientes
                 </Link>

@@ -42,7 +42,6 @@ export default function Header() {
             </div>
           </div>
           
-          <Link to="/diferenciais" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Diferenciais</Link>
           <Link to="/clientes" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Clientes</Link>
           <Link to="/contato" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Fale Conosco</Link>
         </nav>

@@ -13,7 +13,6 @@ import ContactPage from './pages/ContactPage';
 import ProductsPage from './pages/ProductsPage';
 import CategoryProductPage from './pages/CategoryProductPage';
 import ProductDetailPage from './pages/ProductDetailPage';
-import DifferentialsPage from './pages/DifferentialsPage';
 import ClientsPage from './pages/ClientsPage';
 
 export default function App() {
@@ -28,7 +27,6 @@ export default function App() {
               <Route path="/produtos" element={<ProductsPage />} />
               <Route path="/produtos/:slug" element={<CategoryProductPage />} />
               <Route path="/produtos/:categorySlug/:itemSlug" element={<ProductDetailPage />} />
-              <Route path="/diferenciais" element={<DifferentialsPage />} />
               <Route path="/clientes" element={<ClientsPage />} />
               <Route path="/contato" element={<ContactPage />} />
             </Routes>
