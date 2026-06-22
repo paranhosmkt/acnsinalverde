@@ -266,15 +266,78 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         ]
       },
       
-      { slug: "caltta-dh410", brand: "CALTTA", title: "DH410", desc: "Rádio digital portátil de entrada, design ergonômico e comunicação clara.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-dh460", brand: "CALTTA", title: "DH460", desc: "Rádio portátil DMR com display e teclado completo para versatilidade superior.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-ph600", brand: "CALTTA", title: "PH600", desc: "Rádio portátil de missão crítica resistente a água e poeira.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-ph660", brand: "CALTTA", title: "PH660", desc: "Equipamento portátil DMR versátil com funcionalidades avançadas de dados e voz.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-ph690", brand: "CALTTA", title: "PH690", desc: "O rádio mais avançado da série PH com conectividade expandida e alta durabilidade.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-dm660", brand: "CALTTA", title: "DM660", desc: "Rádio móvel DMR com display e excelente qualidade de áudio embarcado.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-pm790", brand: "CALTTA", title: "PM790", desc: "Rádio móvel robusto de missão crítica projetado para resposta ágil.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-smartlink600", brand: "CALTTA", title: "SMARTLINK600", desc: "Sistema avançado para despacho e gerenciamento de comunicação de rádio.", img: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "caltta-pr900", brand: "CALTTA", title: "PR900", desc: "Repetidora DMR profissional de alto rendimento para infraestruturas de rede.", img: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop" },
+      { 
+        slug: "caltta-dh410", 
+        brand: "CALTTA", 
+        title: "DH410", 
+        desc: "A nova geração de rádios digitais da série DH4 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
+        img: "https://i.ibb.co/4ZMTbrnt/DH410.jpg",
+        images: ["https://i.ibb.co/4ZMTbrnt/DH410.jpg"]
+      },
+      { 
+        slug: "caltta-dh460", 
+        brand: "CALTTA", 
+        title: "DH460", 
+        desc: "A nova geração de rádios digitais da série DH4 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
+        img: "https://i.ibb.co/6cyV7g5m/DH460.jpg",
+        images: ["https://i.ibb.co/6cyV7g5m/DH460.jpg"]
+      },
+      { 
+        slug: "caltta-ph600", 
+        brand: "CALTTA", 
+        title: "PH600", 
+        desc: "A nova geração de rádios digitais da série PH6 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
+        img: "https://i.ibb.co/jk3Chsyt/PH600.jpg",
+        images: ["https://i.ibb.co/jk3Chsyt/PH600.jpg"]
+      },
+      { 
+        slug: "caltta-ph660", 
+        brand: "CALTTA", 
+        title: "PH660", 
+        desc: "Equipamento portátil DMR versátil com funcionalidades avançadas de dados e voz.", 
+        img: "https://i.ibb.co/bRvMd9L0/PH660.jpg",
+        images: ["https://i.ibb.co/bRvMd9L0/PH660.jpg"]
+      },
+      { 
+        slug: "caltta-ph690", 
+        brand: "CALTTA", 
+        title: "PH690", 
+        desc: "A nova geração de rádios digitais da série PH6 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
+        img: "https://i.ibb.co/yc50v2Tm/PH690.jpg",
+        images: ["https://i.ibb.co/yc50v2Tm/PH690.jpg"]
+      },
+      { 
+        slug: "caltta-dm660", 
+        brand: "CALTTA", 
+        title: "DM660", 
+        desc: "O rádio DM660 apresenta um design moderno e diferenciado, é compacto, com excelente cobertura e desempenho de Voz. Possui certificação IP54 e MIL-STD-810H, adequado para várias atividades ao ar livre e qualificado para todos os tipos de ambientes com trabalhos rigorosos.", 
+        img: "https://i.ibb.co/pBkt5gCS/DM660.jpg",
+        images: ["https://i.ibb.co/pBkt5gCS/DM660.jpg"]
+      },
+      { 
+        slug: "caltta-pm790", 
+        brand: "CALTTA", 
+        title: "PM790", 
+        desc: "A nova geração de rádios digitais compactos da série PM790 conta com recursos versáteis, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
+        img: "https://i.ibb.co/ycMj10J0/PM790.jpg",
+        images: ["https://i.ibb.co/ycMj10J0/PM790.jpg"]
+      },
+      { 
+        slug: "caltta-smartlink600", 
+        brand: "CALTTA", 
+        title: "SMARTLINK600", 
+        desc: "A nova geração de rádios digitais das REPETIDORAS conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
+        img: "https://i.ibb.co/BK2q3K4f/Smartlink600.jpg",
+        images: ["https://i.ibb.co/BK2q3K4f/Smartlink600.jpg"]
+      },
+      { 
+        slug: "caltta-pr900", 
+        brand: "CALTTA", 
+        title: "PR900", 
+        desc: "A PR900 é uma repetidora digital profissional com funções potentes e uma configuração conveniente, com mais facilidade de programação atendendo a altos requisitos dos usuários. Solução essencial para os mais variados cenários e aplicações profissionais.", 
+        img: "https://i.ibb.co/6JnbNQQP/PR900.jpg",
+        images: ["https://i.ibb.co/6JnbNQQP/PR900.jpg"]
+      },
 
       { slug: "intelbras-rpd-8", brand: "INTELBRAS", title: "RPD 8", desc: "Rádio portátil digital padrão DMR com incrível resistência e clareza de som.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
       { slug: "intelbras-rpd-6s", brand: "INTELBRAS", title: "RPD 6 S", desc: "Compacto e robusto, excelente para rotinas de segurança e controle de acesso.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
