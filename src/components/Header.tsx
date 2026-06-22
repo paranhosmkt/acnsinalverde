@@ -20,15 +20,28 @@ export default function Header() {
             
             <div className="absolute top-full left-1/2 -translate-x-1/2 w-[600px] bg-white border border-gray-100 shadow-xl rounded-xl opacity-0 invisible group-hover/nav:opacity-100 group-hover/nav:visible transition-all duration-300 p-6 flex gap-8">
               <div className="flex-1">
-                <h4 className="text-blue-700 font-bold uppercase tracking-wider text-xs mb-4 border-b border-gray-100 pb-2">Radiocomunicação</h4>
-                <ul className="space-y-3">
-                  <li><Link to="/produtos/radios-portateis" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Rádios portáteis digitais</Link></li>
-                  <li><Link to="/produtos/radios-moveis" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Rádios móveis veiculares</Link></li>
-                  <li><Link to="/produtos/sistemas-repetidoras" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Sistemas de repetidoras</Link></li>
-                  <li><Link to="/produtos/acessorios-audio" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Acessórios de áudio</Link></li>
-                  <li><Link to="/produtos/antenas-profissionais" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Antenas profissionais</Link></li>
-                  <li><Link to="/produtos/locacao-comodato" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Locação e comodato</Link></li>
-                </ul>
+                <Link to="/produtos/radiocomunicacao" className="text-blue-700 font-bold uppercase tracking-wider text-xs mb-4 border-b border-gray-100 pb-2 block hover:text-blue-800 transition-colors">Radiocomunicação</Link>
+                
+                <div className="mb-4">
+                  <h5 className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Marcas</h5>
+                  <ul className="space-y-2">
+                    <li><Link to="/produtos/radiocomunicacao?brand=MOTOROLA" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Motorola</Link></li>
+                    <li><Link to="/produtos/radiocomunicacao?brand=CALTTA" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Caltta</Link></li>
+                    <li><Link to="/produtos/radiocomunicacao?brand=INTELBRAS" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Intelbras</Link></li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h5 className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Modelos</h5>
+                  <ul className="space-y-2">
+                    <li><Link to="/produtos/radios-portateis" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Rádios portáteis digitais</Link></li>
+                    <li><Link to="/produtos/radios-moveis" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Rádios móveis veiculares</Link></li>
+                    <li><Link to="/produtos/sistemas-repetidoras" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Sistemas de repetidoras</Link></li>
+                    <li><Link to="/produtos/acessorios-audio" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Acessórios de áudio</Link></li>
+                    <li><Link to="/produtos/antenas-profissionais" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Antenas profissionais</Link></li>
+                    <li><Link to="/produtos/locacao-comodato" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Locação e comodato</Link></li>
+                  </ul>
+                </div>
               </div>
               <div className="flex-1">
                 <h4 className="text-green-700 font-bold uppercase tracking-wider text-xs mb-4 border-b border-gray-100 pb-2">Adaptação Veicular</h4>

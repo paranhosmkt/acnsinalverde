@@ -1,12 +1,16 @@
 import { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useLocation } from 'react-router-dom';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { telecomProducts, vehicleProducts, mainCategories } from '../components/Products';
 import BeforeAfterSlider from '../components/BeforeAfterSlider';
 
 export default function CategoryProductPage() {
   const { slug } = useParams<{ slug: string }>();
-  const [activeBrand, setActiveBrand] = useState<string>('');
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const brandQuery = searchParams.get('brand');
+  
+  const [activeBrand, setActiveBrand] = useState<string>(brandQuery || '');
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -18,8 +22,12 @@ export default function CategoryProductPage() {
   const parentCategory = mainCategories.find(c => c.items.some((i: any) => i.slug === slug));
 
   useEffect(() => {
-    setActiveBrand('');
-  }, [mainCategory]);
+    if (brandQuery) {
+      setActiveBrand(brandQuery);
+    } else {
+      setActiveBrand('');
+    }
+  }, [mainCategory, brandQuery]);
 
   if (mainCategory) {
     return (
