@@ -103,7 +103,7 @@ export default function CategoryProductPage() {
                                   </div>
                                   <div className="p-6 flex-grow flex flex-col">
                                     <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
-                                    <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                                    <p className="text-gray-600 text-sm flex-grow mb-4 line-clamp-3">{item.desc}</p>
                                     <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
                                       Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                                     </span>
@@ -128,6 +128,12 @@ export default function CategoryProductPage() {
               brands.push(NO_BRAND_LABEL);
             }
             
+            const brandLogos: Record<string, string> = {
+              'MOTOROLA': 'https://i.ibb.co/ZpCJv8Hs/motorola.jpg',
+              'CALTTA': 'https://i.ibb.co/pBqzKDtT/caltta.jpg',
+              'INTELBRAS': 'https://i.ibb.co/7Jm3tBbL/intelbras.jpg'
+            };
+
             if (!activeBrand) {
               return (
                 <div className="space-y-8">
@@ -139,9 +145,13 @@ export default function CategoryProductPage() {
                         onClick={() => setActiveBrand(brand)}
                         className="group bg-white rounded-3xl p-10 shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-500 transition-all duration-300 flex flex-col items-center justify-center min-h-[200px]"
                       >
-                        <h3 className="font-display text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors uppercase tracking-widest">{brand}</h3>
-                        <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-gray-500 group-hover:text-blue-600 transition-colors">
-                          Ver produtos da marca <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                        {brandLogos[brand] ? (
+                          <img src={brandLogos[brand]} alt={brand} className="max-h-20 w-auto object-contain opacity-80 group-hover:opacity-100 transition-opacity" />
+                        ) : (
+                          <h3 className="font-display text-2xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors uppercase tracking-widest">{brand}</h3>
+                        )}
+                        <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-gray-500 group-hover:text-blue-600 transition-colors">
+                          Ver produtos {brandLogos[brand] ? '' : 'da marca'} <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                         </span>
                       </button>
                     ))}
@@ -159,7 +169,11 @@ export default function CategoryProductPage() {
             return (
               <div className="space-y-8 animate-in fade-in zoom-in-95 duration-300">
                 <div className="flex items-center justify-between mb-8 pb-4 border-b border-gray-200">
-                  <h2 className="font-display text-3xl font-bold text-gray-900">{activeBrandName}</h2>
+                  {brandLogos[activeBrandName] ? (
+                    <img src={brandLogos[activeBrandName]} alt={activeBrandName} className="max-h-16 w-auto object-contain" />
+                  ) : (
+                    <h2 className="font-display text-3xl font-bold text-gray-900">{activeBrandName}</h2>
+                  )}
                   <button 
                     onClick={() => setActiveBrand('')}
                     className="inline-flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-gray-900 transition-colors bg-white px-4 py-2 rounded-lg shadow-sm border border-gray-200 hover:bg-gray-50"
@@ -191,7 +205,7 @@ export default function CategoryProductPage() {
                                 </div>
                                 <div className="p-6 flex-grow flex flex-col">
                                   <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
-                                  <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                                  <p className="text-gray-600 text-sm flex-grow mb-4 line-clamp-3">{item.desc}</p>
                                   <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
                                     Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                                   </span>
@@ -288,7 +302,7 @@ export default function CategoryProductPage() {
                           </div>
                           <div className="p-6 flex-grow flex flex-col">
                             <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
-                            <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                            <p className="text-gray-600 text-sm flex-grow mb-4 line-clamp-3">{item.desc}</p>
                             <span className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-blue-600 group-hover:text-blue-800 transition-colors">
                                 Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                             </span>
@@ -313,7 +327,7 @@ export default function CategoryProductPage() {
                       </div>
                       <div className="p-6 flex-grow flex flex-col">
                         <h3 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h3>
-                        <p className="text-gray-600 text-sm flex-grow mb-4">{item.desc}</p>
+                        <p className="text-gray-600 text-sm flex-grow mb-4 line-clamp-3">{item.desc}</p>
                         <span className="mt-auto inline-flex items-center gap-2 text-sm font-semibold text-blue-600 group-hover:text-blue-800 transition-colors">
                             Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                         </span>

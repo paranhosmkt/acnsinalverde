@@ -53,7 +53,7 @@ export default function Clients() {
             Nossos Clientes e Parceiros
           </h3>
           <p className="text-gray-600 text-lg">
-            Atendemos os principais órgãos governamentais, forças de segurança, grandes montadoras e empresas parceiras.
+            Atendemos órgãos governamentais, forças de segurança pública, privada e grupos de concessionárias.
           </p>
         </div>
       </div>

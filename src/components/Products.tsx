@@ -9,22 +9,262 @@ export const telecomProducts = [
     desc: "Comunicação tática segura e criptografada para operações em campo.", 
     img: "https://i.ibb.co/MxMLcbYL/4.jpg",
     items: [
-      { slug: "motorola-r2", brand: "MOTOROLA", title: "MOTOTRBO R2", desc: "O MOTOTRBO R2 é um potente equipamento de última geração que unifica a durabilidade e a ergonomia para garantir um uso seguro e simples. Com um alcance superior, áudio configurável e uma integração perfeita, o R2 é um acréscimo confiável a um dia de trabalho ininterrupto.", img: "https://i.ibb.co/zHNcy72t/Produtos-ACN-3.png" },
-      { slug: "motorola-r5", brand: "MOTOROLA", title: "MOTOTRBO R5", desc: "Comunicação confiável e robusta para operações contínuas.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-r7", brand: "MOTOROLA", title: "MOTOTRBO R7 (Com e Sem Tela)", desc: "Rádio digital portátil com áudio avançado e conectividade preparada para o futuro.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-r7-ex", brand: "MOTOROLA", title: "MOTOTRBO R7 EX", desc: "Intrinsecamente seguro para ambientes perigosos, com máxima performance.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-dgp-8000e-5000e", brand: "MOTOROLA", title: "DGP 8000e / DGP 5000e", desc: "Série de rádios portáteis com voz e dados integrados de alto desempenho.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
+      { 
+        slug: "motorola-r2", 
+        brand: "MOTOROLA", 
+        title: "MOTOTRBO R2", 
+        desc: "O MOTOTRBO R2 é um potente equipamento de última geração que unifica a durabilidade e a ergonomia para garantir um uso seguro e simples. Com um alcance superior, áudio configurável e uma integração perfeita, o R2 é um acréscimo confiável a um dia de trabalho ininterrupto.", 
+        img: "https://i.ibb.co/zHNcy72t/Produtos-ACN-3.png",
+        images: [
+          "https://i.ibb.co/DHq9T7c6/5.jpg",
+          "https://i.ibb.co/Sw6KHXPB/2.jpg",
+          "https://i.ibb.co/k2cV7ycC/4.jpg",
+          "https://i.ibb.co/b5NJ9qkg/7.jpg",
+          "https://i.ibb.co/TqR2Tp2J/6.jpg",
+          "https://i.ibb.co/7hxv0F5/8.jpg",
+          "https://i.ibb.co/S4yrbbx1/3.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-r5", 
+        brand: "MOTOROLA", 
+        title: "MOTOTRBO R5", 
+        desc: `O MOTOTRBO R5 conecta as equipes, ajudando a aumentar a eficiência e a segurança com áudio alto e claro que elimina o ruído de fundo, além de indicações de status e controles intuitivos para que os colaboradores possam se concentrar em suas tarefas, tudo isso em um dispositivo resistente e compacto feito para durar.`, 
+        img: "https://i.ibb.co/jkKXzsRH/10.jpg",
+        images: [
+          "https://i.ibb.co/jkKXzsRH/10.jpg",
+          "https://i.ibb.co/7JYdc0yD/11.jpg",
+          "https://i.ibb.co/23KVDzd7/12.jpg",
+          "https://i.ibb.co/cXxnqtFr/13.jpg",
+          "https://i.ibb.co/fWFj4Jz/14.jpg",
+          "https://i.ibb.co/8nrztjVz/15.jpg",
+          "https://i.ibb.co/gZ48KhVr/16.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-r7", 
+        brand: "MOTOROLA", 
+        title: "MOTOTRBO R7 (Com e Sem Tela)", 
+        desc: `R7 oferece capacidades de áudio revolucionárias em um dispositivo robusto. Seu processamento de áudio avançado garante que suas comunicações são altas e claras, enquanto seu design robusto está preparado para os ambientes mais hostis, e as opções avançadas de conectividade preparam o seu pessoal para o futuro.`, 
+        img: "https://i.ibb.co/JWpGj047/18.jpg",
+        images: [
+          "https://i.ibb.co/JWpGj047/18.jpg",
+          "https://i.ibb.co/tT3BRKPK/19.jpg",
+          "https://i.ibb.co/4Z72sRGj/20.jpg",
+          "https://i.ibb.co/JN5Wsq4/21.jpg",
+          "https://i.ibb.co/G4W1Rh7n/22.jpg",
+          "https://i.ibb.co/s974ySTq/23.jpg",
+          "https://i.ibb.co/n8Zp9Fhw/24.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-r7-ex", 
+        brand: "MOTOROLA", 
+        title: "MOTOTRBO R7 EX", 
+        desc: `Os rádios portáteis MOTOTRBO R7Ex, com certificação ATEX, IECEx e INMETRO, oferecem comunicações de alta qualidade em ambientes potencialmente explosivos, permitindo que as equipes trabalhem com mais segurança. Com áudio alto e claro, além de uma série de recursos avançados, o R7Ex ajuda os trabalhadores a ouvir chamadas e compartilhar mensagens com mais clareza, melhorando o desempenho, aumentando a produtividade e reduzindo o tempo de inatividade.`, 
+        img: "https://i.ibb.co/JWpGj047/18.jpg",
+        images: [
+          "https://i.ibb.co/JWpGj047/18.jpg",
+          "https://i.ibb.co/tT3BRKPK/19.jpg",
+          "https://i.ibb.co/4Z72sRGj/20.jpg",
+          "https://i.ibb.co/JN5Wsq4/21.jpg",
+          "https://i.ibb.co/G4W1Rh7n/22.jpg",
+          "https://i.ibb.co/s974ySTq/23.jpg",
+          "https://i.ibb.co/n8Zp9Fhw/24.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-dgp-8000e-5000e", 
+        brand: "MOTOROLA", 
+        title: "DGP 8000e / DGP 5000e", 
+        desc: `Esta evolução dinâmica dos rádios digitais bidirecionais MOTOTRBOTM ajuda você a melhorar sua conectividade, segurança e produtividade. A Série DGP™8000e/DGP™5000e foi projetada para o profissional qualificado que se nega a desistir. Com voz e dados de alto desempenho integrados e recursos avançados para um funcionamento eficiente, estes rádios de última geração oferecem níveis máximos de conectividade para sua organização.
+
+Isto é o que estes rádios de última geração têm de novo:
+
+Acelerômetro integrado para o recurso Trabalhador Acidentado opcional
+Bluetooth® 4.0
+Acompanhamento e localização em áreas internas
+Wi-Fi integrado
+Atualizações de software através de WiFi
+Qualidade de áudio melhorada
+Capacidade de ampliação melhorada 
+Bateria de maior duração (até 29 horas)
+Maior alcance (até 8%)
+Maior resistência à água (IP68)
+Os rádios da Série DGP™8000e/dgp™5000e incluem:
+DGP 8050e
+DGP 5050e
+DGP 8550e
+DGP 5550e`, 
+        img: "https://i.ibb.co/jZDW0fDK/37.jpg",
+        images: [
+          "https://i.ibb.co/jZDW0fDK/37.jpg"
+        ]
+      },
       { slug: "motorola-dgp-8050ex-8550ex", brand: "MOTOROLA", title: "DGP 8050 EX / DGP 8550 EX", desc: "Certificação ATEX para uso seguro em atmosferas explosivas.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-dtr720", brand: "MOTOROLA", title: "DTR 720", desc: "Comunicação digital on-site com cobertura ampliada e design fino.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-dgm-8000e-5000e", brand: "MOTOROLA", title: "DGM 8000e / DGM 5000e", desc: "Rádios móveis avançados para operações embarcadas inteligentes.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
+      { 
+        slug: "motorola-dtr720", 
+        brand: "MOTOROLA", 
+        title: "DTR 720", 
+        desc: `Os rádios DTR720 da Motorola são agora mais confiáveis do que nunca. Permitem estabelecer comunicações privadas sem interferências para ajudar a sua equipe a manter o foco enquanto garantem a privacidade dase suas comunicações.
+
+Com um design fino e resistente, o rádio digital bidirecional DTR720 possui classificação IP54 e funciona em 900 MHz. Visor colorido com gráfico completo e menu de navegação intuitivo que ajuda a localizar rapidamente todas as funções do rádio.  O DTR720 oferece opções flexíveis de comunicação, incluindo "chamada digital um para um" e "chamada digital um para vários". O DTR720 proporciona um excelente nível de cobertura, bateria de longa duração e qualidade de áudio digital; isto é, áudio forte em qualquer parte.`, 
+        img: "https://i.ibb.co/twGWF1PK/39.jpg",
+        images: [
+          "https://i.ibb.co/twGWF1PK/39.jpg",
+          "https://i.ibb.co/67334DFq/40.jpg",
+          "https://i.ibb.co/chmg2GSK/41.jpg",
+          "https://i.ibb.co/HDWXvWBd/42.jpg",
+          "https://i.ibb.co/ycCtvnxk/43.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-dgm-8000e-5000e", 
+        brand: "MOTOROLA", 
+        title: "DGM 8000e / DGM 5000e", 
+        desc: `Esta evolução dinâmica dos rádios digitais bidirecionais MOTOTRBOTM ajuda você a melhorar sua conectividade, segurança e produtividade. A Série DGM™8000e/DGM™5000e foi projetada para o profissional qualificado que se recusa a desistir. Com voz e dados de alto desempenho integrados e recursos avançados para um funcionamento eficiente, estes rádios de última geração oferecem níveis máximos de conectividade para sua organização.
+
+Isto é o que estes rádios de última geração têm de novo:
+
+Wi-Fi integrado
+Atualizações de software através de WiFi
+Bluetooth® 4.0
+Os rádios da Série DGM™8000e/DGM™5000e incluem:
+DGM™8500e (alfanumérico)
+DGM™5500e (alfanumérico)
+DGM™8000e (numérico)
+DGM™5000e (numérico)`, 
+        img: "https://i.ibb.co/R46TPVLL/ACN-Produtos-Motorola-1.jpg",
+        images: [
+          "https://i.ibb.co/R46TPVLL/ACN-Produtos-Motorola-1.jpg"
+        ]
+      },
       { slug: "motorola-dgm-8500e-5500e", brand: "MOTOROLA", title: "DGM 8500e / DGM 5500e", desc: "Soluções de rádio móvel digital para conectividade contínua em frotas.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-dem300", brand: "MOTOROLA", title: "DEM 300", desc: "Rádio móvel confiável com interface simples.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-dem400", brand: "MOTOROLA", title: "DEM 400", desc: "Comunicação móvel eficiente com visor alfanumérico.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-dem500", brand: "MOTOROLA", title: "DEM 500", desc: "Rádio digital e analógico escalável para o seu negócio.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-slr5100", brand: "MOTOROLA", title: "SLR 5100", desc: "Repetidora de alto desempenho e confiabilidade para a sua rede de rádio.", img: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-t210", brand: "MOTOROLA", title: "Talkabout T210", desc: "Comunicação clara para lazer e equipes leves.", img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-t470", brand: "MOTOROLA", title: "Talkabout T470", desc: "Companheiro robusto e resistente a intempéries para aventuras extremas.", img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800&auto=format&fit=crop" },
-      { slug: "motorola-t600", brand: "MOTOROLA", title: "Talkabout T600", desc: "À prova d'água e flutuante, ideal para comunicação extrema e aquática.", img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800&auto=format&fit=crop" },
+      { 
+        slug: "motorola-dem300", 
+        brand: "MOTOROLA", 
+        title: "DEM 300", 
+        desc: `Mantenha-se conectado a seus funcionários estejam eles entregando carga, despachando caminhões ou dirigindo um ônibus escolar. O rádio móvel MOTOTRBO DEM 300 é uma solução confiável e econômica para manter sua equipe em contato, assim eles podem se comunicar, coordenar e colaborar com máxima eficiência e segurança. O DEM 300 foi projetado para que o motorista possa se conectar em distrações. Esses rádios podem ser usados por motoristas de veículos comerciais durante a operação de seus veículos.
+
+Esse rádio móvel analógico/digital oferece todos os benefícios da tecnologia mais recente – desde qualidade de áudio superior a cobertura mais ampla. Ele é também compatível com funções de negócios essenciais avançadas do MOTOTRBO, tais como interrupção de transmissão (somente decodificação) para priorizar comunicações importantes.
+
+O modelo somente analógico do DEM 300 permite a você atualizar para o modelo digital com um simples pacote de software quando lhe for conveniente. O DEM 300 é fácil de usar e fornece comunicação nítida para máxima eficiência da sua operação. A Motorola também oferece o Rádio Móvel MOTOTRBO DEM 300 com visor alfanumérico.`, 
+        img: "https://i.ibb.co/GGZ8V58/45.jpg",
+        images: [
+          "https://i.ibb.co/GGZ8V58/45.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-dem400", 
+        brand: "MOTOROLA", 
+        title: "DEM 400", 
+        desc: `Mantenha-se conectado a seus funcionários estejam eles entregando carga, despachando caminhões ou dirigindo um ônibus escolar. O rádio móvel MOTOTRBO DEM 400 é uma solução confiável e econômica para manter sua equipe em contato, assim eles podem se comunicar, coordenar e colaborar com máxima eficiência e segurança. O DEM 400 foi projetado para que o motorista possa se conectar em distrações. Esses rádios podem ser usados por motoristas de veículos comerciais durante a operação de seus veículos.
+
+Esse rádio móvel analógico/digital oferece todos os benefícios da tecnologia mais recente – desde qualidade de áudio superior a cobertura mais ampla. Ele é também compatível com funções de negócios essenciais avançadas do MOTOTRBO, tais como interrupção de transmissão (somente decodificação) para priorizar comunicações importantes.
+
+O modelo somente analógico do DEM 400 permite a você atualizar para o modelo digital com um simples pacote de software quando lhe for conveniente. O DEM 400 é fácil de usar e fornece comunicação nítida para máxima eficiência da sua operação. A Motorola também oferece o Rádio Móvel MOTOTRBO DEM 400 com visor alfanumérico.`, 
+        img: "https://i.ibb.co/WWtXbhnV/47.jpg",
+        images: [
+          "https://i.ibb.co/WWtXbhnV/47.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-dem500", 
+        brand: "MOTOROLA", 
+        title: "DEM 500", 
+        desc: `O poder da comunicação digital está agora ao seu alcance. Os rádios móveis MOTOTRBO DEM 500 são compactos e compatíveis. Assim, os trabalhadores podem ficar conectados, quer estejam recolhendo a carga ou transportando passageiros. Como parte da família de rádios da MOTOTRBO, o DEM 500 oferece o melhor em tecnologia de rádio digital, com recursos como a capacidade integrada de sistemas de voz, o dobro da capacidade de chamadas, e comunicações de voz mais claras. Com o recurso inteligente de áudio, os motoristas não precisam ajustar o volume do rádio para evitar a perda de uma chamada, já que o rádio monitora o ruído de fundo e ajusta-se automaticamente.
+
+Para aqueles que operam no analógico, o DEM 500 permite que você atualize para o digital no seu próprio ritmo e orçamento, com escalabilidade simples para adicionar funções e recursos. Este rádio também é compatível com os recursos avançados do MOTOTRBO empresarial, tais como a transmissão com interrupção para priorizar a comunicação crítica.
+
+Para a compatibilidade de sistemas de voz digital acessíveis, o MOTOTRBO DEM 500 realiza o trabalho com clareza e facilidade.`, 
+        img: "https://i.ibb.co/JjsRnGhw/49.jpg",
+        images: [
+          "https://i.ibb.co/JjsRnGhw/49.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-slr5100", 
+        brand: "MOTOROLA", 
+        title: "SLR 5100", 
+        desc: `Para que seu negócio tenha sucesso, você precisa que as comunicações de dados e voz sejam confiáveis e cheguem a todos os setores de suas operações.
+
+A repetidora MOTOTRBO SLR 5100 oferece um serviço de alto desempenho e confiabilidade de rádio bidirecional com todos os recursos que você precisa para se conectar ao seu local de trabalho, seja no campo ou no chão de fábrica.Com seu fator de forma elegante e baixo consumo de energia, o MOTOTRBO
+SLR 5100 foi projetado para ter baixo custo de propriedade. E com um grande avanço na tecnologia, ela representa a próxima geração de repetidoras como alicerce do sistema de rádio bidirecional profissional MOTOTRBO.
+
+Se você precisa da simplicidade de um sistema convencional de único local ou da potência dos recursos de entroncamento do Capacity Plus, Linked Capacity Plus ou Connect Plus, a repetidora SLR 5100 fornece todo o poder do rádio digital bidirecional para sua força de trabalho.
+
+Para confirmar a disponibilidade em seu país, por favor contate seu representante da Motorola.`, 
+        img: "https://i.ibb.co/7dk0ySL2/51.jpg",
+        images: [
+          "https://i.ibb.co/7dk0ySL2/51.jpg",
+          "https://i.ibb.co/rKVmNTvq/52.jpg",
+          "https://i.ibb.co/vCSSdHW5/53.jpg",
+          "https://i.ibb.co/tjVR0gq/54.jpg",
+          "https://i.ibb.co/bjW5hDd0/55.jpg",
+          "https://i.ibb.co/bj07L3J9/56.jpg",
+          "https://i.ibb.co/NPcTYh0/57.jpg",
+          "https://i.ibb.co/TB1RLz26/58.jpg",
+          "https://i.ibb.co/XZhrTt4X/59.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-t210", 
+        brand: "MOTOROLA", 
+        title: "Talkabout T210", 
+        desc: `Resistente e estiloso, o rádio bidirecional TALKABOUT T210 é a melhor maneira de se manter conectado durante as atividades ao ar livre.  Em casa, em um camping, em um festival ou simplesmente durante uma caminhada, o TALKABOUT T210 mantém você em contato. 
+
+Possui um botão de emparelhamento simplificado que facilita a configuração, e carregamento USB para maior praticidade. Além disso, atende aos requisitos da FRS para uso sem licença e inclui recursos chave como visor retroiluminado, 26 canais e até 32 km (20) de alcance* com chamadas sem custo. 
+
+* Dependendo das condições e do terreno`, 
+        img: "https://i.ibb.co/PnyVKvm/61.jpg",
+        images: [
+          "https://i.ibb.co/PnyVKvm/61.jpg",
+          "https://i.ibb.co/DfZ22jbh/62.jpg",
+          "https://i.ibb.co/5h7YC6Bg/63.jpg",
+          "https://i.ibb.co/WWsg4ZGN/64.jpg",
+          "https://i.ibb.co/DH7wMrsV/65.jpg",
+          "https://i.ibb.co/DfMzJhZV/66.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-t470", 
+        brand: "MOTOROLA", 
+        title: "Talkabout T470", 
+        desc: `O TALKABOUT T470 é o companheiro de viagens que você precisa. Com classifição IPX4, o T470 é resistente às intempéries e suporta todo tipo de ambientes hostis. A lanterna LED integrada permite chegar até onde você quer, mesmo em plena escuridão. 
+
+(Somente EUA e Canadá) E com o Carregamento Silencioso, o T470 ainda receberá alertas meteorológicos/de emergências da Administração Nacional Oceânica e Atmosférica (NOAA), mantendo as chamadas silenciosas durante o carregamento.
+
+Com um alcance de até 55 quilômetros* / (T470BR) 35 quilômetros* / (T470CO) 56 quilômetros* e a liberdade de communication sem fio, o T470 não demorará suas tarefas.`, 
+        img: "https://i.ibb.co/DPTs2F5G/68.jpg",
+        images: [
+          "https://i.ibb.co/DPTs2F5G/68.jpg",
+          "https://i.ibb.co/DDH38KVz/69.jpg"
+        ]
+      },
+      { 
+        slug: "motorola-t600", 
+        brand: "MOTOROLA", 
+        title: "Talkabout T600", 
+        desc: `Esteja conectado durante suas aventuras mais radicais ao ar livre
+
+Com design robusto, totalmente submersível*, com recursos de segurança e um alcance de 35 km, o T600BR H2O mantém você conectado e protegido durante suas atividades radicais ao ar livre.
+
+O T600BR H2O vem equipado com os melhores recursos de rádio, incluindo a capacidade de flutuar* e uma lanterna que se ativa com a água. A lanterna também inclui um LED vermelho para favorecer a visão noturna.
+
+Com estes recursos excepcionais, você tem a certeza de que o T600BR H2O o acompanhará em suas aventuras mais radicais, na terra ou no mar, proporcionando comunicações confiáveis. 
+
+Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as comunicações é calculado em condições ideais, com linha de visada livre. O alcance real poderá variar dependendo do terreno e das condições ambientais, e costuma ser inferior ao máximo possível. O seu alcance real estará limitado por vários fatores, como por exemplo, o terreno, as condições climáticas, as obstruções e a interferência eletromagnética.`, 
+        img: "https://i.ibb.co/Q32T4VNm/71.jpg",
+        images: [
+          "https://i.ibb.co/Q32T4VNm/71.jpg",
+          "https://i.ibb.co/KxQTGLyy/72.jpg",
+          "https://i.ibb.co/C3bb1v0X/73.jpg",
+          "https://i.ibb.co/fV59wHpP/74.jpg",
+          "https://i.ibb.co/zTK5c1MJ/75.jpg",
+          "https://i.ibb.co/RTWjdgpy/76.jpg",
+          "https://i.ibb.co/67G9bcP7/77.jpg"
+        ]
+      },
       
       { slug: "caltta-dh410", brand: "CALTTA", title: "DH410", desc: "Rádio digital portátil de entrada, design ergonômico e comunicação clara.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
       { slug: "caltta-dh460", brand: "CALTTA", title: "DH460", desc: "Rádio portátil DMR com display e teclado completo para versatilidade superior.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
