@@ -94,11 +94,11 @@ export default function CategoryProductPage() {
                                 </div>
                               ) : (
                                 <Link to={`/produtos/${cat.slug}/${item.slug}`} className="flex flex-col h-full">
-                                  <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                                  <div className={`overflow-hidden bg-gray-100 ${mainCategory.slug === 'radiocomunicacao' ? 'aspect-square' : 'aspect-[4/3]'}`}>
                                     <img 
                                       src={item.img} 
                                       alt={item.title} 
-                                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                                      className={`w-full h-full group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 ${mainCategory.slug === 'radiocomunicacao' ? 'object-contain mix-blend-multiply p-4' : 'object-cover'}`}
                                     />
                                   </div>
                                   <div className="p-6 flex-grow flex flex-col">
@@ -196,11 +196,11 @@ export default function CategoryProductPage() {
                           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             {productsInCatAndBrand.map((item: any) => (
                               <Link to={`/produtos/${categoryObj.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
-                                <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                                <div className={`overflow-hidden bg-gray-100 ${mainCategory.slug === 'radiocomunicacao' ? 'aspect-square' : 'aspect-[4/3]'}`}>
                                   <img 
                                     src={item.img} 
                                     alt={item.title} 
-                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                                    className={`w-full h-full group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 ${mainCategory.slug === 'radiocomunicacao' ? 'object-contain mix-blend-multiply p-4' : 'object-cover'}`}
                                   />
                                 </div>
                                 <div className="p-6 flex-grow flex flex-col">
@@ -293,11 +293,11 @@ export default function CategoryProductPage() {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                       {product.items.filter((item: any) => item.brand === brand).map((item: any) => (
                         <Link to={`/produtos/${product.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
-                          <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                          <div className={`overflow-hidden bg-gray-100 ${product.slug === 'radiocomunicadores' ? 'aspect-square' : 'aspect-[4/3]'}`}>
                             <img 
                               src={item.img} 
                               alt={item.title} 
-                              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                              className={`w-full h-full group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 ${product.slug === 'radiocomunicadores' ? 'object-contain mix-blend-multiply p-4' : 'object-cover'}`}
                             />
                           </div>
                           <div className="p-6 flex-grow flex flex-col">
@@ -318,11 +318,11 @@ export default function CategoryProductPage() {
                 <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                   {product.items.map((item: any) => (
                     <Link to={`/produtos/${product.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
-                      <div className="aspect-[4/3] overflow-hidden bg-gray-100">
+                      <div className={`overflow-hidden bg-gray-100 ${product.slug === 'radiocomunicadores' ? 'aspect-square' : 'aspect-[4/3]'}`}>
                         <img 
                           src={item.img} 
                           alt={item.title} 
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100"
+                          className={`w-full h-full group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 ${product.slug === 'radiocomunicadores' ? 'object-contain mix-blend-multiply p-4' : 'object-cover'}`}
                         />
                       </div>
                       <div className="p-6 flex-grow flex flex-col">

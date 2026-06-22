@@ -410,7 +410,7 @@ export const mainCategories = [
     slug: 'radiocomunicacao',
     title: 'Radiocomunicação',
     desc: 'Soluções avançadas em comunicação de rádio para operações críticas, abrangendo comunicação tática, móvel e infraestrutura.',
-    img: 'https://i.ibb.co/S4fN5NQP/Whats-App-Image-2026-05-22-at-14-28-24.jpg',
+    img: 'https://i.ibb.co/rK3N6JSm/Design-sem-nome-4.jpg',
     highlightColor: 'text-blue-700',
     items: telecomProducts
   },

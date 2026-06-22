@@ -83,11 +83,13 @@ export default function ProductDetailPage() {
                   )}
                 </>
               ) : (
-                <img 
-                  src={product.img} 
-                  alt={product.title} 
-                  className="w-full h-full object-cover"
-                />
+                <div className={`w-full h-full ${categorySlug === 'radiocomunicadores' ? 'p-8 flex items-center justify-center bg-white' : ''}`}>
+                  <img 
+                    src={product.img} 
+                    alt={product.title} 
+                    className={`w-full h-full ${categorySlug === 'radiocomunicadores' ? 'object-contain mix-blend-multiply' : 'object-cover'}`}
+                  />
+                </div>
               )}
             </div>
             
