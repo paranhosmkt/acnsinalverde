@@ -178,7 +178,7 @@ export const mainCategories = [
     slug: 'adaptacao-veicular',
     title: 'Adaptação Veicular',
     desc: 'Equipamentos e projetos de adaptação para viaturas e frotas de emergência, incluindo sinalização e acústica de alta performance.',
-    img: 'https://i.ibb.co/S4m37D56/Ford-Ranger-2.png',
+    img: 'https://i.ibb.co/Mx7f1vD6/fotocarro.jpg',
     highlightColor: 'text-green-700',
     items: vehicleProducts
   }

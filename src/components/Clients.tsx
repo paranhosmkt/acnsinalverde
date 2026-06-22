@@ -19,11 +19,13 @@ export default function Clients() {
     "https://i.ibb.co/5Wmbp9CX/logo-14.jpg",
     "https://i.ibb.co/B2kSYKhV/logo-15.jpg",
     "https://i.ibb.co/8ndjqCQY/logo-16.jpg",
-    "https://i.ibb.co/WNK0zvqB/logo-17.jpg",
+    "https://i.ibb.co/3bVzL9H/FIATlogo.jpg",
     "https://i.ibb.co/CshZSvds/logo-18.jpg",
     "https://i.ibb.co/qFrVYDjj/logo-19.jpg",
     "https://i.ibb.co/93f9GZHZ/logo-20.jpg",
-    "https://i.ibb.co/6J0Qdh4Q/logo-21.jpg"
+    "https://i.ibb.co/6J0Qdh4Q/logo-21.jpg",
+    "https://i.ibb.co/Q74KMhWp/DCSC.jpg",
+    "https://i.ibb.co/B2Xq8yLG/PCSC.jpg"
   ];
 
   const LogoItem = ({ src }: { src: string }) => (

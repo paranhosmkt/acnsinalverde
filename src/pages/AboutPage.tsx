@@ -43,7 +43,7 @@ export default function AboutPage() {
              {/* Espaço para a Imagem 2 */}
             <div className="absolute inset-0 bg-gray-200 animate-pulse"></div>
             <img 
-              src="https://i.ibb.co/Kpt8GwrR/Gemini-Generated-Image-g9zbq5g9zbq5g9zb.png" 
+              src="https://i.ibb.co/84SYz3wd/Whats-App-Image-2026-06-17-at-14-40-06.jpg" 
               alt="Equipe ACN Sinal Verde" 
               className="w-full h-full object-cover relative z-10 opacity-0 transition-opacity duration-500"
               onLoad={(e) => e.currentTarget.classList.remove('opacity-0')}
