@@ -1,8 +1,75 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 import { telecomProducts, vehicleProducts, mainCategories } from '../components/Products';
 import BeforeAfterSlider from '../components/BeforeAfterSlider';
+
+function CategoryGallery({ cat }: { cat: any }) {
+  const [currentIdx, setCurrentIdx] = useState(0);
+
+  const prevImg = () => {
+    setCurrentIdx(prev => (prev === 0 ? cat.carouselImages.length - 1 : prev - 1));
+  };
+  const nextImg = () => {
+    setCurrentIdx(prev => (prev === cat.carouselImages.length - 1 ? 0 : prev + 1));
+  };
+
+  if (!cat.carouselImages) return null;
+
+  return (
+    <div className="flex flex-col lg:flex-row gap-8 bg-white border border-gray-100 p-6 rounded-2xl shadow-sm">
+      <div className="relative w-full lg:w-2/3 aspect-[16/9] lg:aspect-[4/3] rounded-xl overflow-hidden bg-gray-100 group">
+        <div 
+          className="flex h-full w-full transition-transform duration-300 ease-in-out"
+          style={{ transform: `translateX(-${currentIdx * 100}%)` }}
+        >
+          {cat.carouselImages.map((src: string, idx: number) => (
+            <img 
+              key={idx}
+              src={src} 
+              alt={`${cat.title} - imagem ${idx + 1}`} 
+              loading={idx === 0 ? "eager" : "lazy"}
+              className="w-full h-full object-contain shrink-0 bg-black/5"
+            />
+          ))}
+        </div>
+        {cat.carouselImages.length > 1 && (
+          <>
+            <button 
+              onClick={prevImg}
+              className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/90 text-gray-800 p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity hover:bg-white hover:text-blue-600"
+            >
+              <ChevronLeft size={24} />
+            </button>
+            <button 
+              onClick={nextImg}
+              className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/90 text-gray-800 p-2 rounded-full shadow-lg opacity-0 group-hover:opacity-100 transition-opacity hover:bg-white hover:text-blue-600"
+            >
+              <ChevronRight size={24} />
+            </button>
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/60 text-white text-xs px-3 py-1 rounded-full backdrop-blur-md">
+              {currentIdx + 1} / {cat.carouselImages.length}
+            </div>
+          </>
+        )}
+      </div>
+      <div className="w-full lg:w-1/3 flex flex-col justify-center">
+        {cat.listItems ? (
+          <ul className="space-y-3">
+            {cat.listItems.map((item: string, idx: number) => (
+              <li key={idx} className="flex items-start">
+                <span className="text-green-600 mr-2 font-bold">•</span>
+                <span className="text-gray-700 font-medium">{item}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-gray-500 italic">{cat.desc}</p>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default function CategoryProductPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -42,22 +109,6 @@ export default function CategoryProductPage() {
             <p className="text-xl text-gray-600 max-w-3xl">{mainCategory.desc}</p>
           </div>
 
-          {mainCategory.slug === 'radiocomunicacao' && (
-            <div className="mb-12 relative overflow-hidden rounded-2xl shadow-xl flex items-center justify-center py-20 px-8">
-              <div className="absolute inset-0 z-0">
-                <img 
-                  src="https://images.unsplash.com/photo-1542128962-9d50ad7bf014?q=80&w=2000&auto=format&fit=crop" 
-                  alt="Bombeiro com rádio" 
-                  className="w-full h-full object-cover blur-[2px] opacity-90 scale-105"
-                />
-                <div className="absolute inset-0 bg-blue-900/60 backdrop-blur-[2px]" />
-              </div>
-              <h2 className="relative z-10 text-2xl md:text-4xl font-display font-bold text-white tracking-widest uppercase text-center drop-shadow-lg">
-                Venda e locação de equipamentos
-              </h2>
-            </div>
-          )}
-
           {mainCategory.slug === 'adaptacao-veicular' && (
             <div className="mb-16 max-w-4xl mx-auto">
               <h2 className="font-display text-2xl font-bold text-gray-900 mb-6 text-center">Transformação em Viaturas</h2>
@@ -81,38 +132,42 @@ export default function CategoryProductPage() {
                     {mainCategory.items.map((cat: any) => (
                       <div key={cat.slug}>
                         <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{cat.title}</h3>
-                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                          {cat.items.map((item: any) => (
-                            <div key={item.slug} className={`group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col ${cat.isPhotoOnly ? 'border-none shadow-sm hover:shadow-md' : ''}`}>
-                              {cat.isPhotoOnly ? (
-                                <div className="aspect-[4/3] overflow-hidden bg-gray-100 rounded-xl">
-                                  <img 
-                                    src={item.img} 
-                                    alt={item.title || 'Projeto Especial'} 
-                                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                                  />
-                                </div>
-                              ) : (
-                                <Link to={`/produtos/${cat.slug}/${item.slug}`} className="flex flex-col h-full">
-                                  <div className={`overflow-hidden bg-gray-100 ${mainCategory.slug === 'radiocomunicacao' ? 'aspect-square' : 'aspect-[4/3]'}`}>
+                        {cat.carouselImages ? (
+                          <CategoryGallery cat={cat} />
+                        ) : (
+                          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {cat.items.map((item: any) => (
+                              <div key={item.slug} className={`group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col ${cat.isPhotoOnly ? 'border-none shadow-sm hover:shadow-md' : ''}`}>
+                                {cat.isPhotoOnly ? (
+                                  <div className="aspect-[4/3] overflow-hidden bg-gray-100 rounded-xl">
                                     <img 
                                       src={item.img} 
-                                      alt={item.title} 
-                                      className={`w-full h-full group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 ${mainCategory.slug === 'radiocomunicacao' ? 'object-contain mix-blend-multiply p-4' : 'object-cover'}`}
+                                      alt={item.title || 'Projeto Especial'} 
+                                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                     />
                                   </div>
-                                  <div className="p-6 flex-grow flex flex-col">
-                                    <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
-                                    <p className="text-gray-600 text-sm flex-grow mb-4 line-clamp-3">{item.desc}</p>
-                                    <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
-                                      Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                                    </span>
-                                  </div>
-                                </Link>
-                              )}
-                            </div>
-                          ))}
-                        </div>
+                                ) : (
+                                  <Link to={`/produtos/${cat.slug}/${item.slug}`} className="flex flex-col h-full">
+                                    <div className={`overflow-hidden bg-gray-100 ${mainCategory.slug === 'radiocomunicacao' ? 'aspect-square' : 'aspect-[4/3]'}`}>
+                                      <img 
+                                        src={item.img} 
+                                        alt={item.title} 
+                                        className={`w-full h-full group-hover:scale-105 transition-transform duration-500 grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 ${mainCategory.slug === 'radiocomunicacao' ? 'object-contain mix-blend-multiply p-4' : 'object-cover'}`}
+                                      />
+                                    </div>
+                                    <div className="p-6 flex-grow flex flex-col">
+                                      <h4 className="font-bold text-gray-900 text-lg mb-2">{item.title}</h4>
+                                      <p className="text-gray-600 text-sm flex-grow mb-4 line-clamp-3">{item.desc}</p>
+                                      <span className={`mt-auto inline-flex items-center gap-2 text-sm font-semibold transition-colors ${mainCategory.highlightColor === 'text-blue-700' ? 'text-blue-600 group-hover:text-blue-800' : 'text-green-600 group-hover:text-green-800'}`}>
+                                        Ver detalhes <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                                      </span>
+                                    </div>
+                                  </Link>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -157,6 +212,18 @@ export default function CategoryProductPage() {
                         </span>
                       </button>
                     ))}
+                    
+                    {mainCategory.slug === 'radiocomunicacao' && (
+                      <Link
+                        to="/locacao"
+                        className="group bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-10 shadow-md border border-blue-500 hover:shadow-xl transition-all duration-300 flex flex-col items-center justify-center min-h-[200px]"
+                      >
+                        <h3 className="font-display text-2xl font-bold text-white text-center uppercase tracking-wider mb-2">Locação de Rádios Comunicadores</h3>
+                        <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-100 group-hover:text-white transition-colors bg-white/20 px-6 py-2 rounded-full">
+                          Saber mais <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                        </span>
+                      </Link>
+                    )}
                   </div>
                 </div>
               );

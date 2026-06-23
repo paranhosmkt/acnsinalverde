@@ -14,6 +14,7 @@ import ProductsPage from './pages/ProductsPage';
 import CategoryProductPage from './pages/CategoryProductPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ClientsPage from './pages/ClientsPage';
+import RentalsPage from './pages/RentalsPage';
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
               <Route path="/produtos/:categorySlug/:itemSlug" element={<ProductDetailPage />} />
               <Route path="/clientes" element={<ClientsPage />} />
               <Route path="/contato" element={<ContactPage />} />
+              <Route path="/locacao" element={<RentalsPage />} />
             </Routes>
         </main>
         <Footer />
