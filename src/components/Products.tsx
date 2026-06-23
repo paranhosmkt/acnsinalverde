@@ -510,6 +510,7 @@ export const vehicleProducts = [
     title: "Adaptação Caracterizada", 
     desc: "Adaptação completa de viaturas ostensivas com elementos visuais, tecnologia e proteção.", 
     carouselImages: [
+      "https://i.ibb.co/8n1SW1MK/Caracterizadas-14.jpg",
       "https://i.ibb.co/Z1xsQyjB/Caracterizadas-1.jpg",
       "https://i.ibb.co/Fkm928y6/Caracterizadas-1.jpg",
       "https://i.ibb.co/35cVh5dv/Caracterizadas-2.jpg",
@@ -526,7 +527,6 @@ export const vehicleProducts = [
       "https://i.ibb.co/W4wNpnqY/Caracterizadas-11.jpg",
       "https://i.ibb.co/YBR6hZDd/Caracterizadas-12.jpg",
       "https://i.ibb.co/TJH59px/Caracterizadas-13.jpg",
-      "https://i.ibb.co/8n1SW1MK/Caracterizadas-14.jpg",
       "https://i.ibb.co/j9x8zwnQ/Caracterizadas-15.jpg",
       "https://i.ibb.co/LhHcbC9n/Caracterizadas-16.jpg",
       "https://i.ibb.co/Q4t4Znw/Caracterizadas-17.jpg",
@@ -572,9 +572,8 @@ export const vehicleProducts = [
     title: "Adaptação Descaracterizada", 
     desc: "Adaptação velada para veículos de inteligência militar e civil, mantendo a operação discreta.", 
     carouselImages: [
-      "https://i.ibb.co/cS1bJchN/Descaracterizadas-1.jpg",
-      "https://i.ibb.co/BWMT1d8/Descaracterizadas-1.jpg",
       "https://i.ibb.co/gMK4zSWg/Descaracterizadas-1.png",
+      "https://i.ibb.co/BWMT1d8/Descaracterizadas-1.jpg",
       "https://i.ibb.co/8gHFk97n/Descaracterizadas-2.jpg",
       "https://i.ibb.co/dJcBY9bd/Descaracterizadas-2.jpg",
       "https://i.ibb.co/xScXrK2z/Descaracterizadas-3.jpg",
@@ -597,6 +596,7 @@ export const vehicleProducts = [
     title: "Motocicletas", 
     desc: "Adaptação específica e de segurança de motos para patrulhamento, escolta e fiscalização.", 
     carouselImages: [
+      "https://i.ibb.co/21yNH7p8/Motos-11.jpg",
       "https://i.ibb.co/VY8dnp3f/Motos-1.jpg",
       "https://i.ibb.co/6c2cthDz/Motos-2.jpg",
       "https://i.ibb.co/QvJRWKy7/Motos-3.jpg",
@@ -606,8 +606,7 @@ export const vehicleProducts = [
       "https://i.ibb.co/23y8N5Kh/Motos-7.jpg",
       "https://i.ibb.co/YFXXG4B1/Motos-8.jpg",
       "https://i.ibb.co/q3kwQtZL/Motos-9.jpg",
-      "https://i.ibb.co/Df9kc39N/Motos-10.jpg",
-      "https://i.ibb.co/21yNH7p8/Motos-11.jpg"
+      "https://i.ibb.co/Df9kc39N/Motos-10.jpg"
     ],
     listItems: [
       "Conjunto sinalizador acústico e visual",
@@ -626,6 +625,7 @@ export const vehicleProducts = [
     desc: "Galeria de Fotos e Projetos finalizados", 
     isPhotoOnly: true,
     carouselImages: [
+      "https://i.ibb.co/BHSQBwfk/Projetos-especiais-19.jpg",
       "https://i.ibb.co/NnYDVPtf/Projetos-especiais-1.jpg",
       "https://i.ibb.co/84SSDcHh/Projetos-especiais-2.jpg",
       "https://i.ibb.co/twt5gK0C/Projetos-especiais-3.jpg",
@@ -644,7 +644,6 @@ export const vehicleProducts = [
       "https://i.ibb.co/gZm7SnvD/Projetos-especiais-16.jpg",
       "https://i.ibb.co/GvbSWyq7/Projetos-especiais-17.jpg",
       "https://i.ibb.co/RkMyrCLD/Projetos-especiais-18.jpg",
-      "https://i.ibb.co/BHSQBwfk/Projetos-especiais-19.jpg",
       "https://i.ibb.co/Zzxyw12B/Projetos-especiais-20.jpg"
     ],
     items: []
