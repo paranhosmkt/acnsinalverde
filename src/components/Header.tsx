@@ -30,26 +30,14 @@ export default function Header() {
                     <li><Link to="/produtos/radiocomunicacao?brand=INTELBRAS" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Intelbras</Link></li>
                   </ul>
                 </div>
-
-                <div>
-                  <h5 className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Modelos</h5>
-                  <ul className="space-y-2">
-                    <li><Link to="/produtos/radios-portateis" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Rádios portáteis digitais</Link></li>
-                    <li><Link to="/produtos/radios-moveis" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Rádios móveis veiculares</Link></li>
-                    <li><Link to="/produtos/sistemas-repetidoras" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Sistemas de repetidoras</Link></li>
-                    <li><Link to="/produtos/acessorios-audio" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Acessórios de áudio</Link></li>
-                    <li><Link to="/produtos/antenas-profissionais" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Antenas profissionais</Link></li>
-                    <li><Link to="/produtos/locacao-comodato" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Locação e comodato</Link></li>
-                  </ul>
-                </div>
               </div>
               <div className="flex-1">
                 <h4 className="text-green-700 font-bold uppercase tracking-wider text-xs mb-4 border-b border-gray-100 pb-2">Adaptação Veicular</h4>
                 <ul className="space-y-3">
-                  <li><Link to="/produtos/adaptacao-caracterizada" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Adaptação Caracterizada</Link></li>
-                  <li><Link to="/produtos/adaptacao-descaracterizada" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Adaptação Descaracterizada</Link></li>
-                  <li><Link to="/produtos/motocicletas" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Motocicletas</Link></li>
-                  <li><Link to="/produtos/projetos-especiais" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Projetos Especiais</Link></li>
+                  <li><Link to="/produtos/adaptacao-veicular#adaptacao-caracterizada" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Adaptação Caracterizada</Link></li>
+                  <li><Link to="/produtos/adaptacao-veicular#adaptacao-descaracterizada" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Adaptação Descaracterizada</Link></li>
+                  <li><Link to="/produtos/adaptacao-veicular#motocicletas" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Motocicletas</Link></li>
+                  <li><Link to="/produtos/adaptacao-veicular#projetos-especiais" className="text-sm font-medium text-gray-600 hover:text-green-600 transition-colors block">Projetos Especiais</Link></li>
                 </ul>
               </div>
             </div>

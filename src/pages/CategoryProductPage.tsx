@@ -80,8 +80,17 @@ export default function CategoryProductPage() {
   const [activeBrand, setActiveBrand] = useState<string>(brandQuery || '');
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [slug]);
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }, 100);
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, [slug, location.hash]);
   
   const mainCategory = mainCategories.find(c => c.slug === slug);
   const allProducts = [...telecomProducts, ...vehicleProducts];
@@ -130,7 +139,7 @@ export default function CategoryProductPage() {
                   <h2 className="font-display text-3xl font-bold text-gray-900 mb-8 border-b border-gray-200 pb-4">{mainCategory.title}</h2>
                   <div className="space-y-16">
                     {mainCategory.items.map((cat: any) => (
-                      <div key={cat.slug}>
+                      <div key={cat.slug} id={cat.slug} className="scroll-mt-32">
                         <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{cat.title}</h3>
                         {cat.carouselImages ? (
                           <CategoryGallery cat={cat} />

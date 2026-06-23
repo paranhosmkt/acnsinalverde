@@ -21,15 +21,13 @@ export default function ContactPage() {
               Valorizamos pessoas que compartilham conhecimento, buscam evolução e contribuem para transformar desafios em soluções. Faça parte de uma equipe que atua com tecnologia, inovação e soluções estratégicas para diferentes segmentos.
             </p>
             
-            <div className="inline-flex flex-col items-center">
-              <a 
-                href="mailto:acn@acn.com.br" 
-                className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transition-all uppercase tracking-wide flex items-center gap-3"
-              >
+            <div className="bg-green-50 border border-green-100 p-6 rounded-xl flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+              <div className="bg-green-100 p-3 rounded-full text-green-600 shrink-0">
                 <Mail size={24} />
-                Envie seu currículo
-              </a>
-              <span className="mt-4 text-gray-500 font-medium">acn@acn.com.br</span>
+              </div>
+              <p className="text-lg text-gray-800 font-medium">
+                Envie seu currículo para o e-mail <a href="mailto:acn@acn.com.br" className="text-green-700 font-bold hover:underline">acn@acn.com.br</a>
+              </p>
             </div>
           </div>
         </div>
