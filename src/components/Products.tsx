@@ -74,34 +74,21 @@ export const telecomProducts = [
         ]
       },
       { 
-        slug: "motorola-dgp-8000e-5000e", 
+        slug: "motorola-dgp-8050ex-8550ex", 
         brand: "MOTOROLA", 
-        title: "DGP 8000e / DGP 5000e", 
-        desc: `Esta evolução dinâmica dos rádios digitais bidirecionais MOTOTRBOTM ajuda você a melhorar sua conectividade, segurança e produtividade. A Série DGP™8000e/DGP™5000e foi projetada para o profissional qualificado que se nega a desistir. Com voz e dados de alto desempenho integrados e recursos avançados para um funcionamento eficiente, estes rádios de última geração oferecem níveis máximos de conectividade para sua organização.
+        title: "DGP 8050 EX / DGP 8550 EX", 
+        desc: `Estes terminais portáteis de alto rendimento contam com o nível mais alto de certificação grupal contra gás explosivo ATEX/INMETRO. Ideal para tarefas arriscadas em ambientes altamente barulhentos, longos turnos de trabalho, condições climáticas adversas e situações perigosas, inclusive a presença de pó combustível, químicos explosivos, escapamentos de gás, hidrocarburetos inflamáveis, etc.
 
-Isto é o que estes rádios de última geração têm de novo:
+Obtenha todos os benefícios da tecnologia digital
+MOTOTRBO, como maior capacidade, melhor qualidade de áudio e bateria de longa duração. Além de rádios e acessórios intrinsecamente seguros, com certificação ATEX/INMETRO.
 
-Acelerômetro integrado para o recurso Trabalhador Acidentado opcional
-Bluetooth® 4.0
-Acompanhamento e localização em áreas internas
-Wi-Fi integrado
-Atualizações de software através de WiFi
-Qualidade de áudio melhorada
-Capacidade de ampliação melhorada 
-Bateria de maior duração (até 29 horas)
-Maior alcance (até 8%)
-Maior resistência à água (IP68)
-Os rádios da Série DGP™8000e/dgp™5000e incluem:
-DGP 8050e
-DGP 5050e
-DGP 8550e
-DGP 5550e`, 
-        img: "https://i.ibb.co/jZDW0fDK/37.jpg",
-        images: [
-          "https://i.ibb.co/jZDW0fDK/37.jpg"
-        ]
+DGP8050EX - Modelo sem tela resistente e fácil
+de usar
+
+DGP8550EX - Incorpora teclado completo e tela colorida de grandes dimensões para acesso a funções avançadas como mensagem de texto e identificador de chamadas`, 
+        img: "https://i.ibb.co/27HQ0RfH/Motorola-DGP.png",
+        images: ["https://i.ibb.co/27HQ0RfH/Motorola-DGP.png"]
       },
-      { slug: "motorola-dgp-8050ex-8550ex", brand: "MOTOROLA", title: "DGP 8050 EX / DGP 8550 EX", desc: "Certificação ATEX para uso seguro em atmosferas explosivas.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
       { 
         slug: "motorola-dtr720", 
         brand: "MOTOROLA", 
@@ -134,12 +121,11 @@ DGM™8500e (alfanumérico)
 DGM™5500e (alfanumérico)
 DGM™8000e (numérico)
 DGM™5000e (numérico)`, 
-        img: "https://i.ibb.co/R46TPVLL/ACN-Produtos-Motorola-1.jpg",
+        img: "https://i.ibb.co/WqpXt5Q/Intelbras-radios-5.jpg",
         images: [
-          "https://i.ibb.co/R46TPVLL/ACN-Produtos-Motorola-1.jpg"
+          "https://i.ibb.co/WqpXt5Q/Intelbras-radios-5.jpg"
         ]
       },
-      { slug: "motorola-dgm-8500e-5500e", brand: "MOTOROLA", title: "DGM 8500e / DGM 5500e", desc: "Soluções de rádio móvel digital para conectividade contínua em frotas.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
       { 
         slug: "motorola-dem300", 
         brand: "MOTOROLA", 
@@ -210,7 +196,7 @@ Para confirmar a disponibilidade em seu país, por favor contate seu representan
       { 
         slug: "motorola-t210", 
         brand: "MOTOROLA", 
-        title: "Talkabout T210", 
+        title: "Talkabout T210BR", 
         desc: `Resistente e estiloso, o rádio bidirecional TALKABOUT T210 é a melhor maneira de se manter conectado durante as atividades ao ar livre.  Em casa, em um camping, em um festival ou simplesmente durante uma caminhada, o TALKABOUT T210 mantém você em contato. 
 
 Possui um botão de emparelhamento simplificado que facilita a configuração, e carregamento USB para maior praticidade. Além disso, atende aos requisitos da FRS para uso sem licença e inclui recursos chave como visor retroiluminado, 26 canais e até 32 km (20) de alcance* com chamadas sem custo. 
@@ -229,7 +215,7 @@ Possui um botão de emparelhamento simplificado que facilita a configuração, e
       { 
         slug: "motorola-t470", 
         brand: "MOTOROLA", 
-        title: "Talkabout T470", 
+        title: "Talkabout T470BR", 
         desc: `O TALKABOUT T470 é o companheiro de viagens que você precisa. Com classifição IPX4, o T470 é resistente às intempéries e suporta todo tipo de ambientes hostis. A lanterna LED integrada permite chegar até onde você quer, mesmo em plena escuridão. 
 
 (Somente EUA e Canadá) E com o Carregamento Silencioso, o T470 ainda receberá alertas meteorológicos/de emergências da Administração Nacional Oceânica e Atmosférica (NOAA), mantendo as chamadas silenciosas durante o carregamento.
@@ -244,7 +230,7 @@ Com um alcance de até 55 quilômetros* / (T470BR) 35 quilômetros* / (T470CO) 5
       { 
         slug: "motorola-t600", 
         brand: "MOTOROLA", 
-        title: "Talkabout T600", 
+        title: "Talkabout T600BR", 
         desc: `Esteja conectado durante suas aventuras mais radicais ao ar livre
 
 Com design robusto, totalmente submersível*, com recursos de segurança e um alcance de 35 km, o T600BR H2O mantém você conectado e protegido durante suas atividades radicais ao ar livre.
@@ -321,14 +307,6 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         desc: "A nova geração de rádios digitais compactos da série PM790 conta com recursos versáteis, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
         img: "https://i.ibb.co/ycMj10J0/PM790.jpg",
         images: ["https://i.ibb.co/ycMj10J0/PM790.jpg"]
-      },
-      { 
-        slug: "caltta-smartlink600", 
-        brand: "CALTTA", 
-        title: "SMARTLINK600", 
-        desc: "A nova geração de rádios digitais das REPETIDORAS conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
-        img: "https://i.ibb.co/BK2q3K4f/Smartlink600.jpg",
-        images: ["https://i.ibb.co/BK2q3K4f/Smartlink600.jpg"]
       },
       { 
         slug: "caltta-pr900", 

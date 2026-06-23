@@ -22,7 +22,7 @@ export default function RentalsPage() {
           className="bg-white rounded-2xl shadow-xl overflow-hidden"
         >
           <img 
-            src="https://i.ibb.co/rK3N6JSm/Design-sem-nome-4.jpg" 
+            src="https://i.ibb.co/BVSj9t8H/Whats-App-Image-2026-06-23-at-10-50-09.jpg" 
             alt="Locação de Rádios Comunicadores" 
             className="w-full h-auto object-cover"
           />
