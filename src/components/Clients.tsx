@@ -24,7 +24,6 @@ export default function Clients() {
     "https://i.ibb.co/qFrVYDjj/logo-19.jpg",
     "https://i.ibb.co/93f9GZHZ/logo-20.jpg",
     "https://i.ibb.co/6J0Qdh4Q/logo-21.jpg",
-    "https://i.ibb.co/Q74KMhWp/DCSC.jpg",
     "https://i.ibb.co/B2Xq8yLG/PCSC.jpg",
     "https://i.ibb.co/jPH21kk1/1.jpg",
     "https://i.ibb.co/C3XqHx2t/2.jpg",

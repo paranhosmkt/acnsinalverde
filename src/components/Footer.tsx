@@ -40,10 +40,10 @@ export default function Footer() {
             <h4 className="text-white font-bold mb-6 font-display uppercase tracking-wider text-sm">Corpo Técnico</h4>
             <div className="space-y-6">
               <div>
-                <h5 className="text-blue-400 font-medium mb-1 text-sm">Engenheiro Mecânico</h5>
+                <h5 className="text-blue-400 font-medium mb-1 text-sm">Engenharia Mecânica</h5>
               </div>
               <div>
-                <h5 className="text-blue-400 font-medium mb-1 text-sm">Engenheiro de Telecomunicações</h5>
+                <h5 className="text-blue-400 font-medium mb-1 text-sm">Engenharia de Telecomunicações</h5>
               </div>
             </div>
           </div>
