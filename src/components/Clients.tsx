@@ -48,7 +48,6 @@ export default function Clients() {
     <section id="clientes" className="py-24 bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-3">Quem Confia</h2>
           <h3 className="font-display text-3xl md:text-5xl font-bold text-gray-900 mb-6">
             Nossos Clientes
           </h3>
