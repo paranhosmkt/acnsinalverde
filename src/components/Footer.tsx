@@ -69,7 +69,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/contato" className="hover:text-white transition-colors flex items-center gap-2 group">
-                  <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Fale Conosco
+                  <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Trabalhe conosco
                 </Link>
               </li>
             </ul>

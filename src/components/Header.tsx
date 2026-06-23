@@ -56,7 +56,7 @@ export default function Header() {
           </div>
           
           <Link to="/clientes" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Clientes</Link>
-          <Link to="/contato" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Fale Conosco</Link>
+          <Link to="/contato" className="text-gray-600 hover:text-green-600 font-medium transition-colors">Trabalhe conosco</Link>
         </nav>
         
         <div className="hidden md:flex items-center">
