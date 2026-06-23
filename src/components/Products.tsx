@@ -96,8 +96,9 @@ DGP8550EX - Incorpora teclado completo e tela colorida de grandes dimensões par
         desc: `Os rádios DTR720 da Motorola são agora mais confiáveis do que nunca. Permitem estabelecer comunicações privadas sem interferências para ajudar a sua equipe a manter o foco enquanto garantem a privacidade dase suas comunicações.
 
 Com um design fino e resistente, o rádio digital bidirecional DTR720 possui classificação IP54 e funciona em 900 MHz. Visor colorido com gráfico completo e menu de navegação intuitivo que ajuda a localizar rapidamente todas as funções do rádio.  O DTR720 oferece opções flexíveis de comunicação, incluindo "chamada digital um para um" e "chamada digital um para vários". O DTR720 proporciona um excelente nível de cobertura, bateria de longa duração e qualidade de áudio digital; isto é, áudio forte em qualquer parte.`, 
-        img: "https://i.ibb.co/twGWF1PK/39.jpg",
+        img: "https://i.ibb.co/Rpz56wJ9/Intelbras-radios-6.jpg",
         images: [
+          "https://i.ibb.co/Rpz56wJ9/Intelbras-radios-6.jpg",
           "https://i.ibb.co/twGWF1PK/39.jpg",
           "https://i.ibb.co/67334DFq/40.jpg",
           "https://i.ibb.co/chmg2GSK/41.jpg",
@@ -600,7 +601,7 @@ export const vehicleProducts = [
   { 
     slug: "projetos-especiais", 
     title: "Projetos Especiais", 
-    desc: "Galeria de Fotos e Projetos finalizados", 
+    desc: "Desenvolvemos projetos especiais sob medida para atender demandas específicas de cada cliente. Do planejamento à entrega, cada projeto é pensado com precisão, equipamentos certificados e instalação especializada para garantir máxima eficiência operacional.", 
     isPhotoOnly: true,
     carouselImages: [
       "https://i.ibb.co/BHSQBwfk/Projetos-especiais-19.jpg",

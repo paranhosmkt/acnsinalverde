@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight, Download } from 'lucide-react';
 import { telecomProducts, vehicleProducts } from '../components/Products';
 
 export default function ProductDetailPage() {
@@ -103,14 +103,27 @@ export default function ProductDetailPage() {
               
               <div className="mt-8 pt-8 border-t border-gray-100">
                 <h3 className="font-bold text-gray-900 mb-4">Interessado neste produto?</h3>
-                <a 
-                  href="https://wa.me/5500000000000" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2 transition-colors w-fit"
-                >
-                  Solicitar Cotação
-                </a>
+                <div className="flex flex-wrap gap-4">
+                  <a 
+                    href="https://wa.me/5500000000000" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2 transition-colors w-fit"
+                  >
+                    Solicitar Cotação
+                  </a>
+                  {telecomProducts.some(c => c.slug === categorySlug) && (
+                    <a 
+                      href="#"
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2 transition-colors w-fit"
+                    >
+                      <Download size={20} />
+                      Baixar Catálogo
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </div>

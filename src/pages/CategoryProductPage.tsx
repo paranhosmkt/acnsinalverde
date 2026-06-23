@@ -64,7 +64,7 @@ function CategoryGallery({ cat }: { cat: any }) {
             ))}
           </ul>
         ) : (
-          <p className="text-gray-500 italic">{cat.desc}</p>
+          <p className="text-gray-700 font-medium">{cat.desc}</p>
         )}
       </div>
     </div>

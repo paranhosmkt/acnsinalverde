@@ -30,6 +30,13 @@ export default function Header() {
                     <li><Link to="/produtos/radiocomunicacao?brand=INTELBRAS" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Intelbras</Link></li>
                   </ul>
                 </div>
+
+                <div>
+                  <h5 className="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Serviços</h5>
+                  <ul className="space-y-2">
+                    <li><Link to="/locacao" className="text-sm font-medium text-gray-600 hover:text-blue-600 transition-colors block">Locação</Link></li>
+                  </ul>
+                </div>
               </div>
               <div className="flex-1">
                 <h4 className="text-green-700 font-bold uppercase tracking-wider text-xs mb-4 border-b border-gray-100 pb-2">Adaptação Veicular</h4>
