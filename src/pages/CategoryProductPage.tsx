@@ -225,12 +225,21 @@ export default function CategoryProductPage() {
                     {mainCategory.slug === 'radiocomunicacao' && (
                       <Link
                         to="/locacao"
-                        className="group bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl p-10 shadow-md border border-blue-500 hover:shadow-xl transition-all duration-300 flex flex-col items-center justify-center min-h-[200px]"
+                        className="group bg-white rounded-3xl overflow-hidden shadow-md border border-gray-200 hover:shadow-xl hover:border-blue-500 transition-all duration-300 flex flex-col min-h-[200px]"
                       >
-                        <h3 className="font-display text-2xl font-bold text-white text-center uppercase tracking-wider mb-2">Locação de Rádios Comunicadores</h3>
-                        <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-100 group-hover:text-white transition-colors bg-white/20 px-6 py-2 rounded-full">
-                          Saber mais <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                        </span>
+                        <div className="h-40 bg-gray-100 flex-shrink-0">
+                          <img 
+                            src="https://i.ibb.co/BVSj9t8H/Whats-App-Image-2026-06-23-at-10-50-09.jpg" 
+                            alt="Locação de Rádios Comunicadores" 
+                            className="w-full h-full object-cover"
+                          />
+                        </div>
+                        <div className="p-6 flex flex-col justify-center items-center flex-grow text-center">
+                          <h3 className="font-display text-xl font-bold text-gray-800 uppercase tracking-wider mb-2 group-hover:text-blue-600 transition-colors">Locação de Rádios</h3>
+                          <span className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-gray-500 group-hover:text-blue-600 transition-colors">
+                            Saber mais <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                          </span>
+                        </div>
                       </Link>
                     )}
                   </div>
