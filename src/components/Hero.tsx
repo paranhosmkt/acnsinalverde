@@ -15,11 +15,11 @@ export default function Hero() {
           allow="autoplay; encrypted-media; picture-in-picture"
           title="Background Video"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/60 to-transparent z-10" />
+        <div className="absolute inset-0 bg-gray-900/60 z-10" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="max-w-3xl">
+        <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -33,22 +33,10 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed"
+            className="text-lg sm:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed mx-auto"
           >
             Soluções completas com venda e locação de equipamentos para operações de segurança.
           </motion.p>
-          
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-col sm:flex-row gap-4"
-          >
-            <a href="https://wa.me/554832400336" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-medium px-8 py-4 rounded-md transition-all group shadow-[0_0_20px_rgba(37,99,235,0.3)] w-full sm:w-auto">
-              Solicitar orçamento
-              <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-            </a>
-          </motion.div>
         </div>
       </div>
     </section>

@@ -125,7 +125,9 @@ export default function CategoryProductPage() {
             // Only add 'Linha Completa' if there are products without a brand
             const NO_BRAND_LABEL = mainCategory.slug === 'adaptacao-veicular' ? 'Sinalização e Adaptação' : 'Diversos';
             if (allSubProducts.some(p => !p.brand)) {
-              brands.push(NO_BRAND_LABEL);
+              if (mainCategory.slug !== 'radiocomunicacao') {
+                brands.push(NO_BRAND_LABEL);
+              }
             }
             
             const brandLogos: Record<string, string> = {
