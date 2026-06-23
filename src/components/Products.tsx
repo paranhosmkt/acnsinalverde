@@ -339,7 +339,14 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         images: ["https://i.ibb.co/6JnbNQQP/PR900.jpg"]
       },
 
-      { slug: "intelbras-rpd-8", brand: "INTELBRAS", title: "RPD 8", desc: "Rádio portátil digital padrão DMR com incrível resistência e clareza de som.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
+      { 
+        slug: "intelbras-rpd-8", 
+        brand: "INTELBRAS", 
+        title: "RPD 8", 
+        desc: "O RPD 8 é um rádio que possui características essenciais para proporcionar uma comunicação eficiente em diversas situações. Sua durabilidade é garantida pela proteção IP54 e padrões militares MIL-STD G, o que o torna resistente a poeira, umidade e impactos. Além disso, oferece uma qualidade de áudio excepcional, garantindo clareza nas comunicações. Com sua robustez e alto desempenho, o RPD 8 é a escolha ideal para profissionais que procuram um rádio confiável como ferramenta de trabalho.", 
+        img: "https://i.ibb.co/ccYZfvMC/Intelbras-radios.jpg",
+        images: ["https://i.ibb.co/ccYZfvMC/Intelbras-radios.jpg"]
+      },
       { 
         slug: "intelbras-rpd-6s", 
         brand: "INTELBRAS", 
