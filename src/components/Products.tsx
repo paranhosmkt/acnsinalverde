@@ -593,10 +593,10 @@ export default function Products() {
     <section id="servicos" className="py-24 bg-gray-50 border-y border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-4xl mx-auto mb-16">
           <h2 className="text-green-600 font-bold tracking-wide uppercase text-sm mb-3">Nossos Produtos</h2>
           <h3 className="font-display text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Soluções completas para operações críticas
+            Soluções completas para operações críticas.
           </h3>
           <p className="text-gray-600 text-lg">
             Da radiocomunicação ao implemento veicular: desenvolvemos e fornecemos tecnologia para quem não pode falhar operacionalmente.
