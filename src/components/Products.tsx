@@ -340,15 +340,116 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
       },
 
       { slug: "intelbras-rpd-8", brand: "INTELBRAS", title: "RPD 8", desc: "Rádio portátil digital padrão DMR com incrível resistência e clareza de som.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rpd-6s", brand: "INTELBRAS", title: "RPD 6 S", desc: "Compacto e robusto, excelente para rotinas de segurança e controle de acesso.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rpc-360s", brand: "INTELBRAS", title: "RPC 360s", desc: "Comunicação profissional com recursos avançados de criptografia e durabilidade.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rm-8", brand: "INTELBRAS", title: "RM 8", desc: "Rádio móvel digital DMR de alta potência para viaturas.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rep-25", brand: "INTELBRAS", title: "REP 25", desc: "Sistema repetidor de sinal padrão DMR para ampliar sua cobertura.", img: "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rm-7000", brand: "INTELBRAS", title: "RM 7000", desc: "Rádio móvel veicular Intelbras com excelente custo-benefício.", img: "https://images.unsplash.com/photo-1544256718-3b320d7718c9?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rc-6-mini", brand: "INTELBRAS", title: "RC 6 MINI", desc: "Rádio comunicador incrivelmente discreto, leve e fácil de operar.", img: "https://images.unsplash.com/photo-1590602847861-f357a9332bbc?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rc-4002-g2", brand: "INTELBRAS", title: "RC 4002 G2", desc: "Rádio comunicador de longo alcance para aventuras e trabalhos exigentes.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rc-3002-g2", brand: "INTELBRAS", title: "RC 3002 G2", desc: "Rádio comunicador confiável, com foco em ergonomia e durabilidade.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" },
-      { slug: "intelbras-rc-4102", brand: "INTELBRAS", title: "RC 4102", desc: "Excelente rádio FRS com múltiplas funcionalidades para uso misto.", img: "https://images.unsplash.com/photo-1514782831304-632d84503f6f?q=80&w=800&auto=format&fit=crop" }
+      { 
+        slug: "intelbras-rpd-6s", 
+        brand: "INTELBRAS", 
+        title: "RPD 6 S", 
+        desc: "O RPD 6 S é um radiocomunicador profissional que assegura comunicação eficiente. Com design moderno, é ideal para shoppings, eventos e outros grandes espaços.", 
+        img: "https://i.ibb.co/qZcj9hT/25.jpg",
+        images: [
+          "https://i.ibb.co/qZcj9hT/25.jpg",
+          "https://i.ibb.co/VcW4DCWv/26.jpg",
+          "https://i.ibb.co/NgDCX9wF/27.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rpc-360s", 
+        brand: "INTELBRAS", 
+        title: "RPC 360s", 
+        desc: "Comunicação e conectividade em tempo real, com cobertura ilimitada via rede GSM/3G/4G/LTE e plataformas de gerenciamento online.", 
+        img: "https://i.ibb.co/bRjvx0MH/20.jpg",
+        images: [
+          "https://i.ibb.co/bRjvx0MH/20.jpg",
+          "https://i.ibb.co/qM9KZcHD/21.jpg",
+          "https://i.ibb.co/3mG6vdm1/22.jpg",
+          "https://i.ibb.co/zhPcFz4r/23.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rm-8", 
+        brand: "INTELBRAS", 
+        title: "RM 8", 
+        desc: "Conectividade que eleva suas operações à um nível superior de qualidade nas comunicações de longa distância digitais e analógicas.", 
+        img: "https://i.ibb.co/xSb9dtb1/29.jpg",
+        images: [
+          "https://i.ibb.co/xSb9dtb1/29.jpg",
+          "https://i.ibb.co/5xvVK7dK/30.jpg",
+          "https://i.ibb.co/Kpws5qpk/31.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rep-25", 
+        brand: "INTELBRAS", 
+        title: "REP 25", 
+        desc: "Mais alcance e confiabilidade nas comunicações por voz, digitais e analógicas.", 
+        img: "https://i.ibb.co/v6Q6cM56/34.jpg",
+        images: [
+          "https://i.ibb.co/v6Q6cM56/34.jpg",
+          "https://i.ibb.co/vCBcDLyd/35.jpg",
+          "https://i.ibb.co/j9MVKRxc/36.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rm-7000", 
+        brand: "INTELBRAS", 
+        title: "RM 7000", 
+        desc: "Mantenha sua equipe conectada com uma comunicação de resposta ágil, segura e de longo alcance.", 
+        img: "https://i.ibb.co/HT4j040S/38.jpg",
+        images: [
+          "https://i.ibb.co/HT4j040S/38.jpg",
+          "https://i.ibb.co/j9VtDSd8/39.jpg",
+          "https://i.ibb.co/fGTgDWCQ/40.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rc-6-mini", 
+        brand: "INTELBRAS", 
+        title: "RC 6 MINI", 
+        desc: "Ideal para ambientes internos, o rádio comunicador RC 6 Mini oferece uma comunicação confiável, unindo tecnologia avançada, custo-benefício e praticidade...", 
+        img: "https://i.ibb.co/cS0Qj8w9/3.jpg",
+        images: [
+          "https://i.ibb.co/cS0Qj8w9/3.jpg",
+          "https://i.ibb.co/B5sdB7Xt/4.jpg",
+          "https://i.ibb.co/HLHPxn1G/5.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rc-4002-g2", 
+        brand: "INTELBRAS", 
+        title: "RC 4002 G2", 
+        desc: "A nova linha RC 4002, com recarga rápida e lanterna, traz liberdade e mobilidade para suas tarefas diárias de forma prática e eficiente.", 
+        img: "https://i.ibb.co/Jj2nCptb/7.jpg",
+        images: [
+          "https://i.ibb.co/Jj2nCptb/7.jpg",
+          "https://i.ibb.co/C3qLvDNR/8.jpg",
+          "https://i.ibb.co/V4vX4R5/9.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rc-3002-g2", 
+        brand: "INTELBRAS", 
+        title: "RC 3002 G2", 
+        desc: "Comunicação eficaz sem fio, com agilidade e qualidade. Design leve e compacto para garantir ergonomia e conforto no manuseio.", 
+        img: "https://i.ibb.co/sd06Xtnn/11.jpg",
+        images: [
+          "https://i.ibb.co/sd06Xtnn/11.jpg",
+          "https://i.ibb.co/LDK73DkJ/12.jpg",
+          "https://i.ibb.co/Y7vrC1n4/13.jpg"
+        ]
+      },
+      { 
+        slug: "intelbras-rc-4102", 
+        brand: "INTELBRAS", 
+        title: "RC 4102", 
+        desc: "Um aliado para comunicação objetiva, ágil e sem fios. Com display luminoso, lanterna, proteção IP67 à prova d’água e poeira.", 
+        img: "https://i.ibb.co/qMYTZB2b/15.jpg",
+        images: [
+          "https://i.ibb.co/qMYTZB2b/15.jpg",
+          "https://i.ibb.co/tMLDkx6d/16.jpg",
+          "https://i.ibb.co/bgrRj7ty/17.jpg",
+          "https://i.ibb.co/ksjRQTBD/18.jpg"
+        ]
+      }
     ]
   },
   { 

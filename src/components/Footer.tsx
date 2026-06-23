@@ -94,8 +94,11 @@ export default function Footer() {
 
         </div>
 
-        <div className="border-t border-gray-800 pt-6 mt-6 flex flex-col md:flex-row justify-center items-center gap-4 text-xs text-gray-500">
-          <p>Mockup Arquitetural</p>
+        <div className="border-t border-gray-800 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+          <p>&copy; {new Date().getFullYear()} ACN. Todos os direitos reservados.</p>
+          <p>
+            Design por <a href="https://www.instagram.com/eleveegestao?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">eleve gestão e estratégia</a>
+          </p>
         </div>
       </div>
     </footer>
