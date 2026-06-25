@@ -16,8 +16,8 @@ export const telecomProducts = [
         desc: "O MOTOTRBO R2 é um potente equipamento de última geração que unifica a durabilidade e a ergonomia para garantir um uso seguro e simples. Com um alcance superior, áudio configurável e uma integração perfeita, o R2 é um acréscimo confiável a um dia de trabalho ininterrupto.", 
         img: "https://i.ibb.co/zHNcy72t/Produtos-ACN-3.png",
         images: [
-          "https://i.ibb.co/DHq9T7c6/5.jpg",
           "https://i.ibb.co/Sw6KHXPB/2.jpg",
+          "https://i.ibb.co/DHq9T7c6/5.jpg",
           "https://i.ibb.co/k2cV7ycC/4.jpg",
           "https://i.ibb.co/b5NJ9qkg/7.jpg",
           "https://i.ibb.co/TqR2Tp2J/6.jpg",
