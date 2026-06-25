@@ -23,7 +23,8 @@ export const telecomProducts = [
           "https://i.ibb.co/TqR2Tp2J/6.jpg",
           "https://i.ibb.co/7hxv0F5/8.jpg",
           "https://i.ibb.co/S4yrbbx1/3.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDzAnX3CKK_R6nbErzhKmHDAWvXZZEbpz71SQOxsR0aeME?e=erdaLO"
       },
       { 
         slug: "motorola-r5", 
@@ -39,7 +40,9 @@ export const telecomProducts = [
           "https://i.ibb.co/fWFj4Jz/14.jpg",
           "https://i.ibb.co/8nrztjVz/15.jpg",
           "https://i.ibb.co/gZ48KhVr/16.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQC5v1E2iZZZQo4YjTwcH4okAakqXRMRQ7VBsaLJfCv1HnE?e=MbAP7B",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAi3nQrN7E4QrdkFzLTcDU0AV6DKiwJDmOhgB3bTmui10w?e=ikKhvr"
       },
       { 
         slug: "motorola-r7", 
@@ -55,7 +58,9 @@ export const telecomProducts = [
           "https://i.ibb.co/G4W1Rh7n/22.jpg",
           "https://i.ibb.co/s974ySTq/23.jpg",
           "https://i.ibb.co/n8Zp9Fhw/24.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAYilpiNAeUTJ74-vP3qhW6AQsDBRZ6-eSlhhgpRobaF6s?e=41VcdS",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBnyicBzqSrTZJrOxg8c8uuAZvg4BHe7d3nNI1hDwOD7so?e=bgo8J7"
       },
       { 
         slug: "motorola-r7-ex", 
@@ -71,7 +76,8 @@ export const telecomProducts = [
           "https://i.ibb.co/G4W1Rh7n/22.jpg",
           "https://i.ibb.co/s974ySTq/23.jpg",
           "https://i.ibb.co/n8Zp9Fhw/24.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQB_frPgmQ6hRZExLjjL8v1gAfwPJ55hvYqqXdCqQATJI7w?e=NcxomD"
       },
       { 
         slug: "motorola-dgp-8050ex-8550ex", 
@@ -87,7 +93,8 @@ de usar
 
 DGP8550EX - Incorpora teclado completo e tela colorida de grandes dimensões para acesso a funções avançadas como mensagem de texto e identificador de chamadas`, 
         img: "https://i.ibb.co/27HQ0RfH/Motorola-DGP.png",
-        images: ["https://i.ibb.co/27HQ0RfH/Motorola-DGP.png"]
+        images: ["https://i.ibb.co/27HQ0RfH/Motorola-DGP.png"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBsGdUwray3R6Ggx6Xkto0NAciY-x1wkBnQITOU2m7b_4A?e=egdX83"
       },
       { 
         slug: "motorola-dtr720", 
@@ -104,7 +111,8 @@ Com um design fino e resistente, o rádio digital bidirecional DTR720 possui cla
           "https://i.ibb.co/chmg2GSK/41.jpg",
           "https://i.ibb.co/HDWXvWBd/42.jpg",
           "https://i.ibb.co/ycCtvnxk/43.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDsL_f3xsRGQ4IRdLr7s-JqASk3rNPZQ5JnIHnLEMpt5Ts?e=EfOf5D"
       },
       { 
         slug: "motorola-dgm-8000e-5000e", 
@@ -125,7 +133,9 @@ DGM™5000e (numérico)`,
         img: "https://i.ibb.co/WqpXt5Q/Intelbras-radios-5.jpg",
         images: [
           "https://i.ibb.co/WqpXt5Q/Intelbras-radios-5.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDQFX0dnRPHTIotF2QCcSEFAUZeGYjSRnFu2SzXQD6T5G4?e=DCAsP4",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQA5iD93u2fkQYUWwenUfz8cAWX1DoEYtBAtOgzAoSK8w54?e=nScN3H"
       },
       { 
         slug: "motorola-dem300", 
@@ -139,7 +149,9 @@ O modelo somente analógico do DEM 300 permite a você atualizar para o modelo d
         img: "https://i.ibb.co/GGZ8V58/45.jpg",
         images: [
           "https://i.ibb.co/GGZ8V58/45.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBVMBNeNFkbTrh_6_af-qYnAZapcOqgSlti3DLREDIQceo?e=2rPRCE",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAPQYN9BFPITZEuBP_E_790AYhMFUq9f-Nq7pgKrIeLszs?e=v94W8F"
       },
       { 
         slug: "motorola-dem400", 
@@ -153,7 +165,9 @@ O modelo somente analógico do DEM 400 permite a você atualizar para o modelo d
         img: "https://i.ibb.co/WWtXbhnV/47.jpg",
         images: [
           "https://i.ibb.co/WWtXbhnV/47.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBVMBNeNFkbTrh_6_af-qYnAZapcOqgSlti3DLREDIQceo?e=a6xqVR",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAPQYN9BFPITZEuBP_E_790Ad-zIMRHACRk8vBGxRUdWQU?e=bIbqvk"
       },
       { 
         slug: "motorola-dem500", 
@@ -167,7 +181,9 @@ Para a compatibilidade de sistemas de voz digital acessíveis, o MOTOTRBO DEM 50
         img: "https://i.ibb.co/JjsRnGhw/49.jpg",
         images: [
           "https://i.ibb.co/JjsRnGhw/49.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQABQNCxGe6gSZDIy7XQUXKnAYLjU1XsbnO6Q4ZJt_hqjVg?e=C3eMmc",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAPQYN9BFPITZEuBP_E_790Ad-zIMRHACRk8vBGxRUdWQU?e=bIbqvk"
       },
       { 
         slug: "motorola-slr5100", 
@@ -192,7 +208,8 @@ Para confirmar a disponibilidade em seu país, por favor contate seu representan
           "https://i.ibb.co/NPcTYh0/57.jpg",
           "https://i.ibb.co/TB1RLz26/58.jpg",
           "https://i.ibb.co/XZhrTt4X/59.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDuWbI5IV9mTZTno4CI8bNPAQfukQmFj0Ys7pObjfJTfAw?e=G5avKa"
       },
       { 
         slug: "motorola-t210", 
@@ -211,7 +228,8 @@ Possui um botão de emparelhamento simplificado que facilita a configuração, e
           "https://i.ibb.co/WWsg4ZGN/64.jpg",
           "https://i.ibb.co/DH7wMrsV/65.jpg",
           "https://i.ibb.co/DfMzJhZV/66.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQC_txDEQRoPRo0oX9RLjTlzAeDxJAlMlc_rqsXWzZjThtI?e=I8jeBe"
       },
       { 
         slug: "motorola-t470", 
@@ -226,7 +244,8 @@ Com um alcance de até 55 quilômetros* / (T470BR) 35 quilômetros* / (T470CO) 5
         images: [
           "https://i.ibb.co/DPTs2F5G/68.jpg",
           "https://i.ibb.co/DDH38KVz/69.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQACCvluJgVcS4IuM0Btd3bGAdLhQpUWN2odTuxIfg5A-OU?e=KofKuy"
       },
       { 
         slug: "motorola-t600", 
@@ -250,7 +269,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/zTK5c1MJ/75.jpg",
           "https://i.ibb.co/RTWjdgpy/76.jpg",
           "https://i.ibb.co/67G9bcP7/77.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAgJuxUGJDASbhf1gX_wwVNASwOffXLtU-HL6JAbmM5JAg?e=64pda5"
       },
       
       { 
@@ -259,7 +279,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "DH410", 
         desc: "A nova geração de rádios digitais da série DH4 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
         img: "https://i.ibb.co/4ZMTbrnt/DH410.jpg",
-        images: ["https://i.ibb.co/4ZMTbrnt/DH410.jpg"]
+        images: ["https://i.ibb.co/4ZMTbrnt/DH410.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDEt_EfQxdDTKuNUe59wIyUASZTIRlJGz_GjrEJP7ua0XE?e=sIObuZ"
       },
       { 
         slug: "caltta-dh460", 
@@ -267,7 +288,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "DH460", 
         desc: "A nova geração de rádios digitais da série DH4 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
         img: "https://i.ibb.co/6cyV7g5m/DH460.jpg",
-        images: ["https://i.ibb.co/6cyV7g5m/DH460.jpg"]
+        images: ["https://i.ibb.co/6cyV7g5m/DH460.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQARHRykDAltR7xpXV5tnKkAASO_S-BHBYdAlBd9o1_WDx8?e=QiZ92P"
       },
       { 
         slug: "caltta-ph600", 
@@ -275,7 +297,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "PH600", 
         desc: "A nova geração de rádios digitais da série PH6 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
         img: "https://i.ibb.co/jk3Chsyt/PH600.jpg",
-        images: ["https://i.ibb.co/jk3Chsyt/PH600.jpg"]
+        images: ["https://i.ibb.co/jk3Chsyt/PH600.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQCwbZPS5krySa_U-PvBPAwzARZt_ufzRhsS4VqjxRe6Gbw?e=GvUM89"
       },
       { 
         slug: "caltta-ph660", 
@@ -283,7 +306,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "PH660", 
         desc: "Equipamento portátil DMR versátil com funcionalidades avançadas de dados e voz.", 
         img: "https://i.ibb.co/bRvMd9L0/PH660.jpg",
-        images: ["https://i.ibb.co/bRvMd9L0/PH660.jpg"]
+        images: ["https://i.ibb.co/bRvMd9L0/PH660.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDECMYSUYVeT5YXC05-ZoghAW97FTQ_ebm0eEXva0NTV0Q?e=xEFaMW"
       },
       { 
         slug: "caltta-ph690", 
@@ -291,7 +315,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "PH690", 
         desc: "A nova geração de rádios digitais da série PH6 conta com recursos versáteis e compactos, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
         img: "https://i.ibb.co/yc50v2Tm/PH690.jpg",
-        images: ["https://i.ibb.co/yc50v2Tm/PH690.jpg"]
+        images: ["https://i.ibb.co/yc50v2Tm/PH690.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQB1QbEAMWB0RK3HPg2HDCtxAYKJcLkaPwPqF7DA-EVJhQw?e=NTs3PX"
       },
       { 
         slug: "caltta-dm660", 
@@ -299,7 +324,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "DM660", 
         desc: "O rádio DM660 apresenta um design moderno e diferenciado, é compacto, com excelente cobertura e desempenho de Voz. Possui certificação IP54 e MIL-STD-810H, adequado para várias atividades ao ar livre e qualificado para todos os tipos de ambientes com trabalhos rigorosos.", 
         img: "https://i.ibb.co/pBkt5gCS/DM660.jpg",
-        images: ["https://i.ibb.co/pBkt5gCS/DM660.jpg"]
+        images: ["https://i.ibb.co/pBkt5gCS/DM660.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQA8NlbxbkjRTK1TIpvIj4fgAQePXPDtuobHVfD20kXxOlQ?e=eJnYri"
       },
       { 
         slug: "caltta-pm790", 
@@ -307,7 +333,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "PM790", 
         desc: "A nova geração de rádios digitais compactos da série PM790 conta com recursos versáteis, colabora para que usuários empresariais aprimorarem a eficiência do trabalho a um custo bem mais acessível.", 
         img: "https://i.ibb.co/ycMj10J0/PM790.jpg",
-        images: ["https://i.ibb.co/ycMj10J0/PM790.jpg"]
+        images: ["https://i.ibb.co/ycMj10J0/PM790.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBEce7TLg0SRb1VXsUWZJwqAQYKLAoETcyEArD_fh2hT3A?e=Kd3KQ5"
       },
       { 
         slug: "caltta-pr900", 
@@ -315,7 +342,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "PR900", 
         desc: "A PR900 é uma repetidora digital profissional com funções potentes e uma configuração conveniente, com mais facilidade de programação atendendo a altos requisitos dos usuários. Solução essencial para os mais variados cenários e aplicações profissionais.", 
         img: "https://i.ibb.co/6JnbNQQP/PR900.jpg",
-        images: ["https://i.ibb.co/6JnbNQQP/PR900.jpg"]
+        images: ["https://i.ibb.co/6JnbNQQP/PR900.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBtn3oc2_t9R6nGpHE8HQ25AbFc3oDVTwVahLEHWfhJnO4?e=IaSaOh"
       },
 
       { 
@@ -324,7 +352,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         title: "RPD 8", 
         desc: "O RPD 8 é um rádio que possui características essenciais para proporcionar uma comunicação eficiente em diversas situações. Sua durabilidade é garantida pela proteção IP54 e padrões militares MIL-STD G, o que o torna resistente a poeira, umidade e impactos. Além disso, oferece uma qualidade de áudio excepcional, garantindo clareza nas comunicações. Com sua robustez e alto desempenho, o RPD 8 é a escolha ideal para profissionais que procuram um rádio confiável como ferramenta de trabalho.", 
         img: "https://i.ibb.co/ccYZfvMC/Intelbras-radios.jpg",
-        images: ["https://i.ibb.co/ccYZfvMC/Intelbras-radios.jpg"]
+        images: ["https://i.ibb.co/ccYZfvMC/Intelbras-radios.jpg"],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDrFM-Vg09TRoMmVzDy8xZHAcgjG58qvTm64KJDBPGOEuE?e=Jsx2pg"
       },
       { 
         slug: "intelbras-rpd-6s", 
@@ -336,7 +365,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/qZcj9hT/25.jpg",
           "https://i.ibb.co/VcW4DCWv/26.jpg",
           "https://i.ibb.co/NgDCX9wF/27.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQB-Xejr-8IoRZOCxZxlfIWiAdKDQQNHPa2dV07JPy73R5o?e=uHq8DO"
       },
       { 
         slug: "intelbras-rpc-360s", 
@@ -349,7 +379,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/qM9KZcHD/21.jpg",
           "https://i.ibb.co/3mG6vdm1/22.jpg",
           "https://i.ibb.co/zhPcFz4r/23.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQCE0RzkWJDnSITLYIj6V9E3AcaybQQ040jzHNc5_dxO7eQ?e=TmkRkP"
       },
       { 
         slug: "intelbras-rm-8", 
@@ -361,7 +392,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/xSb9dtb1/29.jpg",
           "https://i.ibb.co/5xvVK7dK/30.jpg",
           "https://i.ibb.co/Kpws5qpk/31.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBz-Ssw014jSpzW6Tu86_XhAZsw-RQ3yFISyYI6i4e_1pU?e=6cCkli"
       },
       { 
         slug: "intelbras-rep-25", 
@@ -373,7 +405,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/v6Q6cM56/34.jpg",
           "https://i.ibb.co/vCBcDLyd/35.jpg",
           "https://i.ibb.co/j9MVKRxc/36.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQClwmBoCB6QRbqzysvjBMT3AR71DTi6NsICujcAbNdHFms?e=4vhu6o"
       },
       { 
         slug: "intelbras-rm-7000", 
@@ -385,7 +418,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/HT4j040S/38.jpg",
           "https://i.ibb.co/j9VtDSd8/39.jpg",
           "https://i.ibb.co/fGTgDWCQ/40.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAcozjc2h0LR7l4TONBKWlaAUBtGIavH4vF-dcUAy1zQ6M?e=KCs4MT"
       },
       { 
         slug: "intelbras-rc-6-mini", 
@@ -397,7 +431,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/cS0Qj8w9/3.jpg",
           "https://i.ibb.co/B5sdB7Xt/4.jpg",
           "https://i.ibb.co/HLHPxn1G/5.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBnywByWaoUR72JUADcYEPKAUHzq729CogIuEqhufdwdXw?e=9hR9S3"
       },
       { 
         slug: "intelbras-rc-4002-g2", 
@@ -409,7 +444,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/Jj2nCptb/7.jpg",
           "https://i.ibb.co/C3qLvDNR/8.jpg",
           "https://i.ibb.co/V4vX4R5/9.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAU9dfdkQkRSYa8T_Ek5tonAcb8lrm130PNevLFJRyHywk?e=ZHTc30"
       },
       { 
         slug: "intelbras-rc-3002-g2", 
@@ -421,7 +457,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/sd06Xtnn/11.jpg",
           "https://i.ibb.co/LDK73DkJ/12.jpg",
           "https://i.ibb.co/Y7vrC1n4/13.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDfVxsiTmjpSZr3UQovPX7UAZHQgIKGQlF1kA4I4Vnfz08?e=dqdUyQ"
       },
       { 
         slug: "intelbras-rc-4102", 
@@ -434,7 +471,8 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
           "https://i.ibb.co/tMLDkx6d/16.jpg",
           "https://i.ibb.co/bgrRj7ty/17.jpg",
           "https://i.ibb.co/ksjRQTBD/18.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBaBBtBE_eYQ5Q1yPK8mfXLAV0dp2ntFoi1-CK8WwMkmO4?e=mDG5Bv"
       }
     ]
   },

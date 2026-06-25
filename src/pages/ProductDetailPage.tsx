@@ -112,15 +112,26 @@ export default function ProductDetailPage() {
                   >
                     Solicitar Cotação
                   </a>
-                  {telecomProducts.some(c => c.slug === categorySlug) && (
+                  {telecomProducts.some(c => c.slug === categorySlug) && product.catalogUrl && (
                     <a 
-                      href="#"
+                      href={product.catalogUrl}
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2 transition-colors w-fit"
                     >
                       <Download size={20} />
                       Baixar Catálogo
+                    </a>
+                  )}
+                  {telecomProducts.some(c => c.slug === categorySlug) && product.accessoriesCatalogUrl && (
+                    <a 
+                      href={product.accessoriesCatalogUrl}
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2 transition-colors w-fit"
+                    >
+                      <Download size={20} />
+                      Catálogo de Acessórios
                     </a>
                   )}
                 </div>
