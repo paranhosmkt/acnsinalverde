@@ -105,7 +105,7 @@ export default function ProductDetailPage() {
                 <h3 className="font-bold text-gray-900 mb-4">Interessado neste produto?</h3>
                 <div className="flex flex-wrap gap-4">
                   <a 
-                    href="https://wa.me/5500000000000" 
+                    href="https://wa.me/554832400336" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-medium inline-flex items-center gap-2 transition-colors w-fit"

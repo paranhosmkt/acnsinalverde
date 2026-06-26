@@ -67,15 +67,18 @@ export const telecomProducts = [
         brand: "MOTOROLA", 
         title: "MOTOTRBO R7 EX", 
         desc: `Os rádios portáteis MOTOTRBO R7Ex, com certificação ATEX, IECEx e INMETRO, oferecem comunicações de alta qualidade em ambientes potencialmente explosivos, permitindo que as equipes trabalhem com mais segurança. Com áudio alto e claro, além de uma série de recursos avançados, o R7Ex ajuda os trabalhadores a ouvir chamadas e compartilhar mensagens com mais clareza, melhorando o desempenho, aumentando a produtividade e reduzindo o tempo de inatividade.`, 
-        img: "https://i.ibb.co/JWpGj047/18.jpg",
+        img: "https://i.ibb.co/PGfBJJYw/2.jpg",
         images: [
-          "https://i.ibb.co/JWpGj047/18.jpg",
-          "https://i.ibb.co/tT3BRKPK/19.jpg",
-          "https://i.ibb.co/4Z72sRGj/20.jpg",
-          "https://i.ibb.co/JN5Wsq4/21.jpg",
-          "https://i.ibb.co/G4W1Rh7n/22.jpg",
-          "https://i.ibb.co/s974ySTq/23.jpg",
-          "https://i.ibb.co/n8Zp9Fhw/24.jpg"
+          "https://i.ibb.co/PGfBJJYw/2.jpg",
+          "https://i.ibb.co/RGS5w4Sq/3.jpg",
+          "https://i.ibb.co/C5J7wPvg/4.jpg",
+          "https://i.ibb.co/Md1sJQ1/5.jpg",
+          "https://i.ibb.co/tF2FX7g/6.jpg",
+          "https://i.ibb.co/CKpWwFYK/7.jpg",
+          "https://i.ibb.co/HTRLBp9k/8.jpg",
+          "https://i.ibb.co/mVcrSpqG/9.jpg",
+          "https://i.ibb.co/4wJtT9RM/10.jpg",
+          "https://i.ibb.co/4g0VWbpq/11.jpg"
         ],
         catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQB_frPgmQ6hRZExLjjL8v1gAfwPJ55hvYqqXdCqQATJI7w?e=NcxomD"
       },
@@ -134,7 +137,7 @@ DGM™5000e (numérico)`,
         images: [
           "https://i.ibb.co/WqpXt5Q/Intelbras-radios-5.jpg"
         ],
-        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDQFX0dnRPHTIotF2QCcSEFAUZeGYjSRnFu2SzXQD6T5G4?e=DCAsP4",
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAd9xtYdzg6SbXZzPLFZO7KAdQRkpABlCW6_T76vI17ASE?e=yZtz0e",
         accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQA5iD93u2fkQYUWwenUfz8cAWX1DoEYtBAtOgzAoSK8w54?e=nScN3H"
       },
       { 

@@ -84,10 +84,10 @@ export default function BeforeAfterSlider() {
       
       {/* Labels */}
       <div className="absolute top-4 left-4 bg-gray-900/80 backdrop-blur-sm text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wider pointer-events-none">
-        Caracterizada
+        Descaracterizada
       </div>
       <div className="absolute top-4 right-4 bg-gray-900/80 backdrop-blur-sm text-white px-3 py-1 rounded text-xs font-semibold uppercase tracking-wider pointer-events-none">
-        Civil
+        PMSC
       </div>
     </div>
   );

@@ -72,6 +72,11 @@ export default function Footer() {
                   <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Trabalhe conosco
                 </Link>
               </li>
+              <li>
+                <a href="https://1drv.ms/b/c/f1d40cb152adb3dd/IQAi8f7wfhT1RasvS84YBvSbAYnqRw8sB1Vyu-rdpaeF0-s?e=6R99Dd" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors flex items-center gap-2 group">
+                  <ChevronRight size={16} className="text-gray-600 group-hover:text-green-500" /> Política de Privacidade
+                </a>
+              </li>
             </ul>
           </div>
 
