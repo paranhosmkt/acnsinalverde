@@ -59,14 +59,14 @@ export default function BeforeAfterSlider() {
     >
       {/* Background: Descaracterizada */}
       <img 
-        src="https://i.ibb.co/Vpt5yzcg/2.jpg" 
+        src="https://i.ibb.co/Kzs2HGqK/Whats-App-Image-2026-06-25-at-16-15-02.jpg" 
         alt="Viatura Descaracterizada" 
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
       />
       
       {/* Foreground: Caracterizada */}
       <img 
-        src="https://i.ibb.co/wZcpGsd7/1.jpg" 
+        src="https://i.ibb.co/rS3HThp/Whats-App-Image-2026-06-25-at-16-15-02-1.jpg" 
         alt="Viatura Caracterizada" 
         className="absolute inset-0 w-full h-full object-cover pointer-events-none"
         style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
