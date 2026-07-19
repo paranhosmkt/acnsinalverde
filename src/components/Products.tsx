@@ -26,6 +26,63 @@ export const telecomProducts = [
         ],
         catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDzAnX3CKK_R6nbErzhKmHDAWvXZZEbpz71SQOxsR0aeME?e=erdaLO"
       },
+      {
+        slug: "motorola-vx-80",
+        brand: "MOTOROLA",
+        title: "RÁDIO PORTÁTIL Vx-80 UHF/VHF",
+        desc: "O rádio VX-80 é uma ferramenta de comunicação rentável projetada para usuários iniciantes e de nível intermediário. Trata-se de um rádio portátil com todos os recursos necessários para garantir uma comunicação confiável a um preço acessível. Unicamente modelos não CE.",
+        img: "https://i.ibb.co/rRfF2tsw/modelo01.png",
+        images: [
+          "https://i.ibb.co/rRfF2tsw/modelo01.png"
+        ]
+      },
+      {
+        slug: "motorola-dep-250",
+        brand: "MOTOROLA",
+        title: "RÁDIO PORTÁTIL MOTOTRBO DEP 250",
+        desc: `O rádio MOTOTRBO DEP 250 será sua nova opção. Esta série pode melhorar a eficiência da comunicação e é fácil de usar. Trata-se de um rádio prático projetado e fabricado para profissionais.
+
+Experimente a comunicação de voz digital MOTOTRBO. Hoje, milhares de usuários confiam em sua excelente qualidade de voz e desempenho. Isso permite que sua empresa reduza efetivamente as despesas operacionais enquanto mantém uma maior produtividade.
+
+O rádio MOTOTRBO DEP 250 é fácil de usar e de atualizar com os sistemas analógicos existentes. Se sua empresa está pensando em migrar para um sistema digital, esses novos rádios digitais são compatíveis com os modos analógico e digital. A compatibilidade dos acessórios de audio permite aproveitar seu estoque anterior, ajudando a proteger ainda mais seu investimento.
+
+Em ambientes com altos requisitos de equipamentos ou longas horas de trabalho, os rádios digitais têm melhor desempenho do que os analógicos e podem garantir uma comunicação de voz clara.
+
+O rádio MOTOTRBO DEP 250 oferece os benefícios da tecnologia digital: no modo digital, 40% mais tempo de conversação, capacidade de voz dupla com largura de banda de 12.5kHz e melhor desempenho de áudio do que os equipamentos analógicos. Seu rádio MOTOTRBO fornecerá uma comunicação de voz mais clara em todas as chamadas, eliminando o ruído estático e de fundo do modelo analógico.`,
+        img: "https://i.ibb.co/KzqjRBtH/modelo-02.png",
+        images: [
+          "https://i.ibb.co/KzqjRBtH/modelo-02.png"
+        ]
+      },
+      {
+        slug: "motorola-curve",
+        brand: "MOTOROLA",
+        title: "Curve Rádio Bidirecional",
+        desc: `Rádio empresarial
+
+O Curve combina uma operação de rádio simples e intuitiva com funções avançadas que ajudam a sua equipe a se manter em contato enquanto continuarem produtivos e concentrados em seu trabalho. Criado para os negócios, desenvolvido para durar.`,
+        img: "https://i.ibb.co/b5qBg7Qt/modelo-03-1.png",
+        images: [
+          "https://i.ibb.co/b5qBg7Qt/modelo-03-1.png",
+          "https://i.ibb.co/WWwnXHKL/modelo-03-2.png",
+          "https://i.ibb.co/PZLvKHsL/modelo-03-3.png",
+          "https://i.ibb.co/m5GR1TjY/modelo-03-4.png",
+          "https://i.ibb.co/7dkX293h/modelo-03-5.png",
+          "https://i.ibb.co/FqsQFkzH/modelo-03-6.png"
+        ]
+      },
+      {
+        slug: "motorola-mag-one-d8",
+        brand: "MOTOROLA",
+        title: "Mag One D8 - Rádio Portátil de duas vias",
+        desc: `Leve, poderoso e econômico, com o suporte DMR II
+
+O rádio D8 é compatível com as comunicações analógicas para um Push-to-talk por voz simples. Também suporta o padrão de comunicações Digital Mobile Radio (DMR II), para conexões de voz claras e livres de estática, mesmo no limite da cobertura do seu rádio.`,
+        img: "https://i.ibb.co/tM266nZ4/modelo-04.png",
+        images: [
+          "https://i.ibb.co/tM266nZ4/modelo-04.png"
+        ]
+      },
       { 
         slug: "motorola-r5", 
         brand: "MOTOROLA", 

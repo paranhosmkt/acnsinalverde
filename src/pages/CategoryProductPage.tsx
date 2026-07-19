@@ -140,7 +140,9 @@ export default function CategoryProductPage() {
                   <div className="space-y-16">
                     {mainCategory.items.map((cat: any) => (
                       <div key={cat.slug} id={cat.slug} className="scroll-mt-32">
-                        <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{cat.title}</h3>
+                        {cat.title !== "Rádios Portáteis Digitais" && (
+                          <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{cat.title}</h3>
+                        )}
                         {cat.carouselImages ? (
                           <CategoryGallery cat={cat} />
                         ) : (
@@ -279,7 +281,9 @@ export default function CategoryProductPage() {
                       
                       return (
                         <div key={catSlug}>
-                          <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{categoryObj.title}</h3>
+                          {categoryObj.title !== "Rádios Portáteis Digitais" && (
+                            <h3 className="font-display text-2xl font-bold text-gray-800 mb-6 pb-2 border-b border-gray-200">{categoryObj.title}</h3>
+                          )}
                           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
                             {productsInCatAndBrand.map((item: any) => (
                               <Link to={`/produtos/${categoryObj.slug}/${item.slug}`} key={item.slug} className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col">
