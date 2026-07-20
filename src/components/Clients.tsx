@@ -73,7 +73,9 @@ export default function Clients() {
             }}
           >
             {[...logos, ...logos].map((src, i) => (
-              <LogoItem key={`row1-${i}`} src={src} />
+              <div key={`row1-${i}`} className="bg-white border border-gray-100 rounded-xl px-4 py-4 flex items-center justify-center shadow-sm w-48 shrink-0 hover:border-blue-500 hover:shadow-md transition-all mx-3 h-28">
+                <img src={src} alt="Client Logo" className="w-full h-full object-contain" referrerPolicy="no-referrer" />
+              </div>
             ))}
           </motion.div>
         </div>

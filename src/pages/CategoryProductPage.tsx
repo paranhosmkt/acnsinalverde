@@ -94,7 +94,7 @@ export default function CategoryProductPage() {
   
   const mainCategory = mainCategories.find(c => c.slug === slug);
   const allProducts = [...telecomProducts, ...vehicleProducts];
-  const product = allProducts.find(p => p.slug === slug);
+  const product = allProducts.find(p => p.slug === slug) as any;
   const parentCategory = mainCategories.find(c => c.items.some((i: any) => i.slug === slug));
 
   useEffect(() => {

@@ -332,6 +332,139 @@ Que tipo de alcance posso esperar de meus rádios? O alcance indicado para as co
         ],
         catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAgJuxUGJDASbhf1gX_wwVNASwOffXLtU-HL6JAbmM5JAg?e=64pda5"
       },
+      {
+        slug: "motorola-apx-8000xe",
+        brand: "MOTOROLA",
+        title: "Rádio portátil APX™ 8000XE habilitado para todas as bandas",
+        desc: `A nossa experiência de trabalho em conjunto com bombeiros de todo o mundo levou-nos a projetar a Série APX™ XE, um portfólio seguro, simples e eficiente de rádios e acessórios ultra resistentes e ergonomicamente avançados. 
+
+Os bombeiros queriam contar com recursos tão extremos quanto os da Série APX XE, incluindo um visor de maior tamanho, botões de controle grandes e a possibilidade de se comunicar com municípios vizinhos utilizando uma solução de rádio habilitada para todas as bandas. O APX 8000XE combina não só essas características, mas também a integração de Wi-Fi para maior flexibilidade de programação. 
+
+O APX 8000XE redefine o conceito de comunicações de missão crítica com um rádio ultra duradouro que combina interoperabilidade ilimitada, excelente qualidade de áudio e conectividade Wi-Fi segura. Com um seletor de canal dedicado e sua capacidade para suportar temperaturas de até 260˚C (500˚F), o microfone alto-falante remoto APX XE500 é o companheiro perfeito para o APX 8000XE. Combinados, o rádio portátil APX 8000XE habilitado para todas as bandas e o microfone alto-falante remoto XE500 criam uma solução de missão crítica incomparável, projetada para a segurança das pessoas em ambientes extremos.`,
+        img: "https://i.ibb.co/XrPfD9P6/1.jpg",
+        images: [
+          "https://i.ibb.co/XrPfD9P6/1.jpg",
+          "https://i.ibb.co/1Sc3ksf/2.jpg",
+          "https://i.ibb.co/1fWRStHR/3.jpg",
+          "https://i.ibb.co/CKYDbpS5/4.jpg",
+          "https://i.ibb.co/zWVTr56R/5.jpg",
+          "https://i.ibb.co/T9RtkJj/6.jpg"
+        ]
+      },
+      {
+        slug: "motorola-apx-8000",
+        brand: "MOTOROLA",
+        title: "Rádio portátil multifaixas APX™ 8000",
+        desc: `Mobilidade ilimitada. Desempenho incondicional. 
+Com 4 bandas de RF e acesso multimodos ao sistema, o APX8000 não apresenta limites de interoperabilidade. Em ambientes barulhentos, durante uma ventania, com sussurros ou aos gritos, não importa: o Mecanismo Adaptativo de Áudio e o alto-falante ultra-alto garantem clareza a todas as conversas. Com acesso Wi-Fi, o APX 8000 pode receber rapidamente novos recursos de codeplug, firmware e software a fim de reconfigurar a frota de rádios facilmente, além de garantir que os usuários não sofram qualquer interrupção no serviço. Com design intuitivo e familiar, o compacto APX 8000 é sempre confortável de usar, tanto para segurá-lo quanto no suporte para cinto.`,
+        img: "https://i.ibb.co/bRGn5BQv/1.jpg",
+        images: [
+          "https://i.ibb.co/bRGn5BQv/1.jpg",
+          "https://i.ibb.co/dJLG84Ph/2.jpg",
+          "https://i.ibb.co/W4QrPXDf/3.jpg",
+          "https://i.ibb.co/bnxnN4Z/4.jpg",
+          "https://i.ibb.co/6RBr6skq/5.jpg"
+        ]
+      },
+      {
+        slug: "motorola-apx-900",
+        brand: "MOTOROLA",
+        title: "Rádio Portátil P25 de Banda Única APX™ 900",
+        desc: `Comunicação essencial. Serviço excepcional.
+Pelo que nos diz, você adora nossos rádios APX. Diz que o desenho especialmente projetado para a segurança pública faz deles os dispositivos ideais para agentes de segurança no mundo todo. Mas pediram-nos um rádio P25 mais focado na eficiência do dia-a-dia do que na segurança de missão crítica. Por isso, respondemos com o APX900.
+
+O APX 900 foi desenvolvido para obras públicas, serviços governamentais e organizações educacionais que precisam de uma comunicação essencial a um preço acessível. Oferece importantes recursos essenciais, com um design focado na eficiência, incluindo a conexão sem fio Bluetooth®.  
+
+Um ótimo rádio exige um ótimo suporte, por isso também estamos apresentando o Device Management Services para sua frota APX. Independentemente de você precisar de um serviço de manutenção contínua abrangente ou simplesmente de uma assistência ocasional com um apoio no aprovisionamento, temos o pacote de serviços ideal para você. Obterá o nível de suporte necessário para comunicações confiáveis e estáveis em toda a sua organização. 
+
+Com o Device Management Services para APX e APX 900, você obtém um nível de conexão no qual pode confiar. Agora, mais do que nunca.`,
+        img: "https://i.ibb.co/0jTXMM8N/1.jpg",
+        images: [
+          "https://i.ibb.co/0jTXMM8N/1.jpg",
+          "https://i.ibb.co/9H7t5TTC/2.jpg",
+          "https://i.ibb.co/d0KZdMqY/3.jpg",
+          "https://i.ibb.co/gZSC9tLg/4.jpg"
+        ]
+      },
+      {
+        slug: "motorola-apx-6000xe",
+        brand: "MOTOROLA",
+        title: "Rádio portátil APX™ 6000XE P25 aprimorado",
+        desc: `Trabalhando junto aos bombeiros no mundo todo, redefinimos a segurança com a nova série de rádios APX Extreme, uma combinação de avançada funcionalidade, ergonomia e durabilidade para uso mais seguro, fácil e eficiente.
+
+Desde o primeiro dia, o rádio portátil bidirecional APX 6000XE P25 tem satisfeito as expectativas mais exigentes das agências. Proporciona desempenho confiável em uma solução de banda única sem comprometer o tamanho nem as funções requeridas para atividades de rotina ou de emergências extremas. Atualmente, na medida em que as necessidades do pessoal de segurança pública aumentam, evolucionamos o APX 6000XE para que seja compatível com as tecnologias mais recentes como Wi-Fi, mecanismo de áudio adaptativo e tecnologia sem fio Bluetooth® 4.0.`,
+        img: "https://i.ibb.co/39xYNT5n/1.jpg",
+        images: [
+          "https://i.ibb.co/39xYNT5n/1.jpg",
+          "https://i.ibb.co/7xhV7LdL/2.jpg",
+          "https://i.ibb.co/HfLf78ky/3.jpg",
+          "https://i.ibb.co/zH8v7c1n/4.jpg",
+          "https://i.ibb.co/BHTV2VJk/5.jpg",
+          "https://i.ibb.co/9mgx5zt3/6.jpg"
+        ]
+      },
+      {
+        slug: "motorola-apx-5000",
+        brand: "MOTOROLA",
+        title: "Rádio portátil APX™ 5000 P25 aprimorado",
+        desc: `Desde o início, o rádio portátil de banda única APX 5000 P25 tem oferecido a famosa resistência e confiabilidade APX, sem comprometer o tamanho nem os recursos necessários para atividades de rotina e emergências extremas. Agora, conforme a crescente necessidade de agentes de segurança pública, estamos desenvolvendo o APX 5000 para suportar novas tecnologias como Wi-Fi, mecanismo adaptativo de áudio e a tecnologia sem fio Bluetooth® 4.0. Esses avanços ajudam a aprimorar o tempo de resposta e a eficiência operacional de agências de segurança pública e, ao mesmo tempo, aumenta a segurança de pessoas e das comunidades.`,
+        img: "https://i.ibb.co/ymfZM4gm/1.jpg",
+        images: [
+          "https://i.ibb.co/ymfZM4gm/1.jpg",
+          "https://i.ibb.co/nMDqcTDc/2.jpg",
+          "https://i.ibb.co/wN6tMLPg/3.jpg",
+          "https://i.ibb.co/sdY42My3/4.jpg",
+          "https://i.ibb.co/MD6RgDYp/5.jpg",
+          "https://i.ibb.co/HphK3bMJ/6.jpg"
+        ]
+      },
+      {
+        slug: "motorola-apx-2000",
+        brand: "MOTOROLA",
+        title: "Rádio portátil APX™ 2000 P25",
+        desc: `O APX 2000 oferece todos os benefícios da tecnologia P25 no menor P25 de fase 2 portátil do setor. Fácil de usar, muito resistente, um valor difícil de bater, conecta desde usuários de trabalhos públicos, concessionárias e de segurança pública local até socorristas para comunicações rápidas e interoperáveis. Durável o suficiente para suportar poeira, calor, choques e submersão, o APX 2000 é certificado IP67 e MIL-STD. É embalado com recursos importantes para ajudar a manter você seguro, como rede sem fio de missão crítica, supressão de ruído com 2 microfones, localização externa por GPS e criptografia AES.`,
+        img: "https://i.ibb.co/XxcrTKXq/1.jpg",
+        images: [
+          "https://i.ibb.co/XxcrTKXq/1.jpg",
+          "https://i.ibb.co/XZGVdm5P/2.jpg",
+          "https://i.ibb.co/PssPd3vZ/3.jpg",
+          "https://i.ibb.co/JRmNfdcj/4.jpg",
+          "https://i.ibb.co/w81Pbph/5.jpg",
+          "https://i.ibb.co/rR5wcYTz/6.jpg"
+        ]
+      },
+      {
+        slug: "motorola-apx-n50",
+        brand: "MOTOROLA",
+        title: "Rádio bidirecional portátil APX N50 de banda única P25",
+        desc: `Simples, confiável e seguro.
+
+O APX N50 é um rádio de formato fino, mas resistente, projetado para oferecer segurança e confiança na comunicação entre socorristas, equipes de suporte e administração da segurança pública que trabalham em campo.`,
+        img: "https://i.ibb.co/nq0KxNvW/1.png",
+        images: [
+          "https://i.ibb.co/nq0KxNvW/1.png",
+          "https://i.ibb.co/8gJBD95t/2.png",
+          "https://i.ibb.co/4wbbmZYq/3.png",
+          "https://i.ibb.co/C55kZbnP/4.png",
+          "https://i.ibb.co/KSXYQRV/5.png"
+        ]
+      },
+      {
+        slug: "motorola-srx-2200",
+        brand: "MOTOROLA",
+        title: "Rádio de combate SRX 2200 aprimorado",
+        desc: `A apresentação do rádio portátil bidirecional SRX 2200 P25 combinou nossa comprovada experiência com rádios dentro do esquadrão (IISR) e com o rádio de combate resistente projetado para fornecer comunicações seguras quando nossas tropas mais precisam.
+
+O SRX 2200 de banda única tem oferecido a famosa resistência e confiabilidade APX™, sem comprometer o tamanho nem os recursos necessários para missões de rotina e para os adversários mais perigosos. Agora, conforme a crescente necessidade da equipe tática e de base, desenvolvemos o SRX 2200 para suportar novas tecnologias como Wi-Fi, motor de áudio adaptativo e tecnologia sem fio Bluetooth® 4.0. Esses rádios indispensáveis fornecem uma grande cobertura, aprimoram as comunicações de voz entre esquadrões e mantém a segurança geral da nossa equipe militar.`,
+        img: "https://i.ibb.co/j9XhWy6q/1.jpg",
+        images: [
+          "https://i.ibb.co/j9XhWy6q/1.jpg",
+          "https://i.ibb.co/mrmr2Nh5/2.jpg",
+          "https://i.ibb.co/p6cRq4cQ/3.jpg",
+          "https://i.ibb.co/X64sLKG/4.jpg",
+          "https://i.ibb.co/4BZBmMw/5.jpg"
+        ]
+      },
       
       { 
         slug: "caltta-dh410", 
