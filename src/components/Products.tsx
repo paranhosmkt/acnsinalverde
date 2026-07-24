@@ -34,7 +34,8 @@ export const telecomProducts = [
         img: "https://i.ibb.co/rRfF2tsw/modelo01.png",
         images: [
           "https://i.ibb.co/rRfF2tsw/modelo01.png"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQACUkv7OA20RLOLuDd_1pw0Acc1cv_TlRv9-CGTMbJo0RI?e=eP2Qs9"
       },
       {
         slug: "motorola-dep-250",
@@ -52,7 +53,9 @@ O rádio MOTOTRBO DEP 250 oferece os benefícios da tecnologia digital: no modo 
         img: "https://i.ibb.co/KzqjRBtH/modelo-02.png",
         images: [
           "https://i.ibb.co/KzqjRBtH/modelo-02.png"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBV6FXP-eCrTo_K-uYAkKhnAQ4f00yQBCJnA1_KPqhs_GQ?e=r20r2f",
+        accessoriesCatalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBVVSR3mse4TI5oCwEbmMBuAX1pbWJ_QhQT-T14kS2UHoo?e=BgNYDH"
       },
       {
         slug: "motorola-curve",
@@ -69,7 +72,8 @@ O Curve combina uma operação de rádio simples e intuitiva com funções avan�
           "https://i.ibb.co/m5GR1TjY/modelo-03-4.png",
           "https://i.ibb.co/7dkX293h/modelo-03-5.png",
           "https://i.ibb.co/FqsQFkzH/modelo-03-6.png"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQA1Bjt0oo2MQ6y0_cGszk2tAcTZCCSOpWRhAFB8JV6jRZs?e=QtOXjC"
       },
       {
         slug: "motorola-mag-one-d8",
@@ -81,7 +85,8 @@ O rádio D8 é compatível com as comunicações analógicas para um Push-to-tal
         img: "https://i.ibb.co/tM266nZ4/modelo-04.png",
         images: [
           "https://i.ibb.co/tM266nZ4/modelo-04.png"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAMamIS2YstSbJWuUSpsIPfAQn7AizRHhFKzqnTNIri00A?e=c9ABo7"
       },
       { 
         slug: "motorola-r5", 
