@@ -369,7 +369,8 @@ Com 4 bandas de RF e acesso multimodos ao sistema, o APX8000 não apresenta limi
           "https://i.ibb.co/W4QrPXDf/3.jpg",
           "https://i.ibb.co/bnxnN4Z/4.jpg",
           "https://i.ibb.co/6RBr6skq/5.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQB4rYN4eWYnRIP06eXDJzWxAUij6EkdhwYpB1z1MOSB8a4?e=5czugO"
       },
       {
         slug: "motorola-apx-900",
@@ -389,7 +390,8 @@ Com o Device Management Services para APX e APX 900, você obtém um nível de c
           "https://i.ibb.co/9H7t5TTC/2.jpg",
           "https://i.ibb.co/d0KZdMqY/3.jpg",
           "https://i.ibb.co/gZSC9tLg/4.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBlHnb8LbkeR69a0uIaNpugAWGNnLhU3QsXrHMQlhbLKkE?e=quzR3U"
       },
       {
         slug: "motorola-apx-6000xe",
@@ -406,7 +408,8 @@ Desde o primeiro dia, o rádio portátil bidirecional APX 6000XE P25 tem satisfe
           "https://i.ibb.co/zH8v7c1n/4.jpg",
           "https://i.ibb.co/BHTV2VJk/5.jpg",
           "https://i.ibb.co/9mgx5zt3/6.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQA-InUGwxUZSoNpOZpZjbb2AX5u_qfYCEC74gFkJfEeGU0?e=cyCqP6"
       },
       {
         slug: "motorola-apx-5000",
@@ -421,7 +424,8 @@ Desde o primeiro dia, o rádio portátil bidirecional APX 6000XE P25 tem satisfe
           "https://i.ibb.co/sdY42My3/4.jpg",
           "https://i.ibb.co/MD6RgDYp/5.jpg",
           "https://i.ibb.co/HphK3bMJ/6.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDL1bfp_O3YTr-w5rqNzdwDAZgSwhXa6VkUzK8cyrxYmPQ?e=2vkIKP"
       },
       {
         slug: "motorola-apx-2000",
@@ -436,7 +440,8 @@ Desde o primeiro dia, o rádio portátil bidirecional APX 6000XE P25 tem satisfe
           "https://i.ibb.co/JRmNfdcj/4.jpg",
           "https://i.ibb.co/w81Pbph/5.jpg",
           "https://i.ibb.co/rR5wcYTz/6.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDaft1FuxM_TIC673ihasuJAcK4FKj258_K04X_q59aeaI?e=LTWG4k"
       },
       {
         slug: "motorola-apx-n50",
@@ -452,7 +457,8 @@ O APX N50 é um rádio de formato fino, mas resistente, projetado para oferecer 
           "https://i.ibb.co/4wbbmZYq/3.png",
           "https://i.ibb.co/C55kZbnP/4.png",
           "https://i.ibb.co/KSXYQRV/5.png"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQAj0eXnqdfYSJNYPfhJpjDGAf-J5O1MNNlnFS0YiNSkdNI?e=luj0j4"
       },
       {
         slug: "motorola-srx-2200",
@@ -468,7 +474,87 @@ O SRX 2200 de banda única tem oferecido a famosa resistência e confiabilidade 
           "https://i.ibb.co/p6cRq4cQ/3.jpg",
           "https://i.ibb.co/X64sLKG/4.jpg",
           "https://i.ibb.co/4BZBmMw/5.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQC9oNBhTOb4R63lm69pS9WCAYK3jYCl2NRilPIZ2uQ8whk?e=fYkil9"
+      },
+      {
+        slug: "motorola-apx-5500",
+        brand: "MOTOROLA",
+        title: "Rádio móvel P25 de banda única APX 5500 - Melhorado",
+        desc: `MANTENHA-SE INFORMADO E SEGURO
+
+O design evoluído, robusto e compacto do rádio móvel APX™ 5500 foi projetado para maximizar o espaço de seu veículo e manter toda sua organização conectada de maneira segura.  Agora, com o Wi-Fi integrado e SmartConnect, o APX 5500 oferece mais formas de gerenciar seu rádio e se manter conectado.  E se seu veículo sofrer um grande impacto, o rádio pode enviar um alerta automático ao centro de despacho.  
+
+A segurança é mais importante do que nunca. Os criminosos estão testando você nas ruas e pelo ar. Defenda-se com vários níveis de segurança para criptografar e proteger suas comunicações de voz e dados contra escutas não autorizadas.
+
+Mantenha-se conectado e seguro, e proteja suas comunicações com o rádio móvel APX 5500 de banda única.`,
+        img: "https://i.ibb.co/0jKTNJQS/Modelo-09-1.png",
+        images: [
+          "https://i.ibb.co/0jKTNJQS/Modelo-09-1.png",
+          "https://i.ibb.co/Z63ZMn01/Modelo-09-2.png",
+          "https://i.ibb.co/rf3J2mLQ/Modelo-09-3.png",
+          "https://i.ibb.co/FqDd146V/Modelo-09-4.png",
+          "https://i.ibb.co/jkVt5wjQ/Modelo-09-5.png",
+          "https://i.ibb.co/5Wrp443C/Modelo-09-6.png",
+          "https://i.ibb.co/VYPZV9Sc/Modelo-09-7.png"
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQBptURc7OSOSbioIqT530nJATmPznpoc51XGlB0q4Rovps?e=vQvp8G"
+      },
+      {
+        slug: "motorola-apx-2500",
+        brand: "MOTOROLA",
+        title: "Rádios Móveis Série APX 2500 - Melhorado",
+        desc: `DESEMPENHO INCONDICIONAL. RESPOSTA EFETIVA
+
+Combinamos o rádio APX™ 2500 com nosso robusto cabeçote de controle O2 para oferecer uma comunicação de rádio segura e confiável que pode resistir o uso diário.  Seu design compacto simplifica a instalação em veículos. A criptografia de hardware integrado protege suas comunicações de missão crítica.  A detecção de impacto envia automaticamente um alerta ao pessoal de despacho para manter seus usuários mais seguros e o Wi-Fi integrado ajuda a mantê-lo atualizado com atualizações de software simples e rápidas.
+
+Otimize sua eficiência operacional com o desempenho e confiabilidade do rádio móvel APX 2500.`,
+        img: "https://i.ibb.co/8DkdnnTd/Modelo-10-1.png",
+        images: [
+          "https://i.ibb.co/8DkdnnTd/Modelo-10-1.png",
+          "https://i.ibb.co/ksHvbKdQ/Modelo-10-2.png",
+          "https://i.ibb.co/v6XT1Sp8/Modelo-10-3.png",
+          "https://i.ibb.co/FkWMxQ8d/Modelo-10-4.png",
+          "https://i.ibb.co/4gpGYrrR/Modelo-10-5.png",
+          "https://i.ibb.co/fY6csMzG/Modelo-10-6.png"
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDq8yZ1WivuSYeK7WE5HHsPAcLvPBDG9eigyyqHVndYVgs?e=d6pqtk"
+      },
+      {
+        slug: "motorola-apx-1500",
+        brand: "MOTOROLA",
+        title: "Rádio Móvel P25 De Banda Única APX 1500 - Melhorado",
+        desc: `CONECTIVIDADE P25. PREÇO EXCEPCIONAL.
+
+O rádio móvel APX™ 1500 foi projetado para fornecer comunicações de rádio P25 confiáveis a um preço acessível, ideal para o trabalho diário, por mais intensivo que seja. Seu simples e resistente cabeçote de controle O2 inclui um visor colorido de fácil leitura e um alto-falante integrado de 7,5 watts para uma comunicação eficiente e confiável. A capacidade do rádio P25 favorece a interoperabilidade com os agentes em campo e outros usuários de rádio P25.
+
+Comunique-se facilmente e com total confiança por um preço acessível com o rádio móvel APX 1500.`,
+        img: "https://i.ibb.co/B5LRXLFc/r-dios.png",
+        images: [
+          "https://i.ibb.co/B5LRXLFc/r-dios.png"
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQA2ZDOt16s9QJ7u3nwZ1wSiAU_D4wCay7UdcrwhIMmabSY?e=EWXJY3"
+      },
+      {
+        slug: "motorola-apx-8500",
+        brand: "MOTOROLA",
+        title: "Rádio móvel APX™ 8500 P25 para todas as bandas",
+        desc: `Mobilidade sem Limite. Conectividade Máxima.
+Uma perseguição em alta velocidade. Um acidente de trânsito massivo. Um desastre natural. Os socorristas devem estar prontos para se comunicar a qualquer momento e em qualquer situação. 
+
+O rádio móvel de todas as bandas APX 8500 combina interoperabilidade ilimitada, conectividade Wi-Fi segura e especificamente projetado, permitindo facilidade de instalação e remoção. Ele pode facilmente se conectar ao modem veicular VML750 LTE através da interface micro USB e utilizar uma rede de banda larga para criar um ecossistema no veículo para descarregar aplicações de dados em campo, aumentando a segurança e a eficiência dos usuários de segurança pública dentro e ao redor do veículo. 
+
+A variante de alta potência APX 8500 oferece até 100W de potência de transmissão, para alcance e cobertura extraordinários. É ideal para comandantes de incidentes que precisam coordenar várias equipes em diferentes faixas de freqüência - especialmente nas situações em que a infraestrutura de rede não está disponível.`,
+        img: "https://i.ibb.co/XZWyGLDN/Modelo-12-1.jpg",
+        images: [
+          "https://i.ibb.co/XZWyGLDN/Modelo-12-1.jpg",
+          "https://i.ibb.co/rR24DBFQ/Modelo-12-2.jpg",
+          "https://i.ibb.co/Vcx2WB5c/Modelo-12-3.jpg",
+          "https://i.ibb.co/q3GZhMNZ/Modelo-12-4.jpg",
+          "https://i.ibb.co/pr5RBww3/Modelo-12-5.jpg",
+          "https://i.ibb.co/spKwfPb1/Modelo-12-6.jpg"
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQC1DLJx_P8_Q6iX6Ihezg2EAQVnvywjwSBAbVCAif2C-kE?e=Ab3oaH"
       },
       
       { 
