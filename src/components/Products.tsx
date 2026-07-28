@@ -277,6 +277,18 @@ Para confirmar a disponibilidade em seu país, por favor contate seu representan
         catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQDuWbI5IV9mTZTno4CI8bNPAQfukQmFj0Ys7pObjfJTfAw?e=G5avKa"
       },
       { 
+        slug: "motorola-t110", 
+        brand: "MOTOROLA", 
+        title: "Talkabout T110BR", 
+        desc: `Simples, compacto e fácil de usar por toda a família. O rádio TALKABOUT T110 é a maneira ideal de se manter em contato em caminhadas, no parque, na praia ou em passeios ao ar livre.
+
+Com configuração fácil por emparelhamento, 26 canais e comunicação clara, o T110BR mantém você conectado de forma rápida e sem complicações.`, 
+        img: "https://i.ibb.co/PnyVKvm/61.jpg",
+        images: [
+          "https://i.ibb.co/PnyVKvm/61.jpg"
+        ]
+      },
+      { 
         slug: "motorola-t210", 
         brand: "MOTOROLA", 
         title: "Talkabout T210BR", 
