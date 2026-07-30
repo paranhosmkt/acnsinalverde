@@ -366,7 +366,8 @@ O APX 8000XE redefine o conceito de comunicações de missão crítica com um r�
           "https://i.ibb.co/CKYDbpS5/4.jpg",
           "https://i.ibb.co/zWVTr56R/5.jpg",
           "https://i.ibb.co/T9RtkJj/6.jpg"
-        ]
+        ],
+        catalogUrl: "https://1drv.ms/b/c/f1d40cb152adb3dd/IQCy196rhWvdS7Mk7RbFCKWlAZgGxY_IHsyv7D85R90_vZs?e=ccEzDU"
       },
       {
         slug: "motorola-apx-8000",
